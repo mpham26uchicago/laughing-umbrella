@@ -27,3 +27,6 @@ So for this paper, we also wrote up some notes and implement the codes to calcul
 
 Slide 6 (Future Directions):
 So going forward, we are working on a medium article to give a high level overview of these two papers. The article will give a little more motivation and more visualization to help the readers understand these somewhat technical results.
+
+Slide 7 (Links):
+Here are the links to our notes and code implementation
