@@ -1,3 +1,0 @@
-# QBraid
-
-XX around ;)
