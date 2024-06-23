@@ -1,2 +1,2 @@
 # laughing-umbrella
-Project exploring the entanglement ability of the XX+YY gate.
+Project exploring the compilation ability of the XX+YY gate.
