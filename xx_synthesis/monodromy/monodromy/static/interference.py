@@ -299,7 +299,6 @@ def polytope_from_strengths(strengths, scale_factor=1):
 
     return polytope
 
-
 def get_augmented_coordinate(target_coordinate, strengths):
     """
     Produce a coordinate suitable for use with `xx_region_polytope`.

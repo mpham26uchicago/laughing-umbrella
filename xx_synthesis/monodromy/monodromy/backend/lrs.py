@@ -21,14 +21,6 @@ from ..exceptions import NoFeasibleSolutions
 from ..polytopes import ConvexPolytope, PolytopeVolume
 from ..utilities import lcm
 
-
-LRS_ENV = "/Users/minhpham/Documents/Research/QBraid/monodromy/lrs"
-"""Environment variable used to override the path to the `lrs` executable."""
-
-
-#LRS_PATH = getenv(LRS_ENV, "lrs")
-"""Default path to the user's `lrs` executable."""
-
 LRS_PATH = "/Users/minhpham/Documents/Research/laughing-umbrella/xx_synthesis/monodromy/lrslib-071b/lrs"
 
 print(LRS_PATH)
