@@ -1,0 +1,878 @@
+(base) Minhs-MacBook-Pro:xx_synthesis minhpham$ caffeinate python3 xy_dont_sleep.py 
+/Users/minhpham/Documents/Research/laughing-umbrella/xx_synthesis/monodromy/lrslib-071b/lrs
+Working on an XY interaction sequence of length 0...
+Working on the reduction 1/3... done.  Took 0.10326836095191538 seconds.
+Working on the reduction 2/3... done.  Took 0.09589566197246313 seconds.
+Working on the reduction 3/3... done.  Took 0.09083270118571818 seconds.
+The first three coordinates are the canonical coordinates CAN(x1, x2, x3).
+The remaining coordinates x4, ..., xk are the XY interaction strengths.
+[
+# origin ∩ anonymous_convex_polytope_7: 
+    1 +     0 x1 +     0 x2 +     0 x3 >= 0
+    0 +     1 x1 +     0 x2 +     0 x3 == 0
+    0 +     0 x1 +     1 x2 +     0 x3 == 0
+    0 +     0 x1 +     0 x2 +     1 x3 == 0
+,
+# origin ∩ anonymous_convex_polytope_8: 
+    1 +     0 x1 +     0 x2 +     0 x3 >= 0
+   -1 +     1 x1 +     0 x2 +     0 x3 == 0
+    0 +     0 x1 +     1 x2 +     0 x3 == 0
+    0 +     0 x1 +     0 x2 +     1 x3 == 0
+
+]
+Working on an XY interaction sequence of length 1...
+Working on the reduction 1/3... done.  Took 0.22860118001699448 seconds.
+Working on the reduction 2/3... done.  Took 0.19000873598270118 seconds.
+Working on the reduction 3/3... done.  Took 0.29924482200294733 seconds.
+The first three coordinates are the canonical coordinates CAN(x1, x2, x3).
+The remaining coordinates x4, ..., xk are the XY interaction strengths.
+[
+# origin ∩ anonymous_convex_polytope_7 ∩ anonymous_convex_polytope_7: 
+    1 +    -2 x1 +     0 x2 +     0 x3 +     0 x4 >= 0
+    0 +     1 x1 +     0 x2 +     0 x3 +     0 x4 >= 0
+    0 +    -1 x1 +     1 x2 +     0 x3 +     0 x4 == 0
+    0 +     0 x1 +     0 x2 +     1 x3 +     0 x4 == 0
+    0 +    -1 x1 +     0 x2 +     0 x3 +     1 x4 == 0
+,
+# origin ∩ anonymous_convex_polytope_7 ∩ anonymous_convex_polytope_8: 
+    1 +    -1 x1 +     0 x2 +     0 x3 +     0 x4 >= 0
+   -1 +     2 x1 +     0 x2 +     0 x3 +     0 x4 >= 0
+   -1 +     1 x1 +     1 x2 +     0 x3 +     0 x4 == 0
+    0 +     0 x1 +     0 x2 +     1 x3 +     0 x4 == 0
+   -1 +     1 x1 +     0 x2 +     0 x3 +     1 x4 == 0
+
+]
+Working on an XY interaction sequence of length 2...
+Working on the reduction 1/3... done.  Took 0.4449537880718708 seconds.
+Working on the reduction 2/3... done.  Took 0.2130282970611006 seconds.
+Working on the reduction 3/3... done.  Took 0.4107760328333825 seconds.
+The first three coordinates are the canonical coordinates CAN(x1, x2, x3).
+The remaining coordinates x4, ..., xk are the XY interaction strengths.
+[
+# origin ∩ anonymous_convex_polytope_7 ∩ anonymous_convex_polytope_7 ∩ anonymous_convex_polytope_7: 
+    0 +     1 x1 +    -1 x2 +    -1 x3 +     0 x4 +     0 x5 >= 0
+    1 +     0 x1 +     0 x2 +     0 x3 +    -2 x4 +     0 x5 >= 0
+    1 +     0 x1 +     0 x2 +    -1 x3 +    -1 x4 +    -1 x5 >= 0
+    2 +    -1 x1 +    -1 x2 +    -1 x3 +    -2 x4 +     0 x5 >= 0
+    0 +     0 x1 +     1 x2 +     0 x3 +    -1 x4 +     1 x5 >= 0
+    0 +     0 x1 +     1 x2 +    -1 x3 +     0 x4 +     0 x5 >= 0
+    0 +    -1 x1 +     1 x2 +    -1 x3 +     0 x4 +     2 x5 >= 0
+    0 +     0 x1 +     0 x2 +     1 x3 +     0 x4 +     0 x5 >= 0
+    1 +     0 x1 +     0 x2 +     0 x3 +     0 x4 +    -2 x5 >= 0
+    1 +    -1 x1 +    -1 x2 +     0 x3 +     0 x4 +     0 x5 >= 0
+    2 +    -1 x1 +    -1 x2 +    -1 x3 +     0 x4 +    -2 x5 >= 0
+    0 +     0 x1 +     1 x2 +     0 x3 +     1 x4 +    -1 x5 >= 0
+    0 +    -1 x1 +     0 x2 +     0 x3 +     1 x4 +     1 x5 >= 0
+    0 +    -1 x1 +     1 x2 +    -1 x3 +     2 x4 +     0 x5 >= 0
+,
+# origin ∩ anonymous_convex_polytope_7 ∩ anonymous_convex_polytope_7 ∩ anonymous_convex_polytope_8: 
+    0 +     0 x1 +     1 x2 +     0 x3 +     1 x4 +    -1 x5 >= 0
+    0 +     0 x1 +     1 x2 +    -1 x3 +     0 x4 +     0 x5 >= 0
+    1 +    -1 x1 +    -1 x2 +    -1 x3 +     0 x4 +     0 x5 >= 0
+    1 +     0 x1 +     0 x2 +     0 x3 +     0 x4 +    -2 x5 >= 0
+    1 +     0 x1 +     0 x2 +    -1 x3 +    -1 x4 +    -1 x5 >= 0
+    1 +     1 x1 +    -1 x2 +    -1 x3 +     0 x4 +    -2 x5 >= 0
+    0 +     0 x1 +     0 x2 +     1 x3 +     0 x4 +     0 x5 >= 0
+    0 +     0 x1 +     1 x2 +     0 x3 +    -1 x4 +     1 x5 >= 0
+    1 +     0 x1 +     0 x2 +     0 x3 +    -2 x4 +     0 x5 >= 0
+    0 +     1 x1 +    -1 x2 +     0 x3 +     0 x4 +     0 x5 >= 0
+    1 +     1 x1 +    -1 x2 +    -1 x3 +    -2 x4 +     0 x5 >= 0
+   -1 +     1 x1 +     0 x2 +     0 x3 +     1 x4 +     1 x5 >= 0
+   -1 +     1 x1 +     1 x2 +    -1 x3 +     0 x4 +     2 x5 >= 0
+   -1 +     1 x1 +     1 x2 +    -1 x3 +     2 x4 +     0 x5 >= 0
+
+]
+Working on an XY interaction sequence of length 3...
+Working on the reduction 1/3... done.  Took 47.2634982240852 seconds.
+Working on the reduction 2/3... done.  Took 39.47547445492819 seconds.
+Working on the reduction 3/3... done.  Took 2.848150890087709 seconds.
+The first three coordinates are the canonical coordinates CAN(x1, x2, x3).
+The remaining coordinates x4, ..., xk are the XY interaction strengths.
+[
+# origin ∩ anonymous_convex_polytope_7 ∩ anonymous_convex_polytope_7 ∩ anonymous_convex_polytope_7 ∩ anonymous_convex_polytope_7: 
+    1 +     0 x1 +     0 x2 +     0 x3 +    -2 x4 +     0 x5 +     0 x6 >= 0
+    0 +     0 x1 +     0 x2 +    -1 x3 +     0 x4 +     1 x5 +     1 x6 >= 0
+    0 +    -1 x1 +     1 x2 +    -1 x3 +     0 x4 +     2 x5 +     2 x6 >= 0
+    1 +     0 x1 +     0 x2 +    -1 x3 +    -1 x4 +    -1 x5 +     1 x6 >= 0
+    0 +     0 x1 +     1 x2 +     0 x3 +     1 x4 +    -1 x5 +     1 x6 >= 0
+    0 +     1 x1 +     1 x2 +    -1 x3 +     2 x4 +    -2 x5 +     2 x6 >= 0
+    1 +     0 x1 +     0 x2 +     0 x3 +     0 x4 +    -2 x5 +     0 x6 >= 0
+    2 +    -1 x1 +    -1 x2 +    -1 x3 +    -2 x4 +     0 x5 +     2 x6 >= 0
+    0 +     1 x1 +    -1 x2 +    -1 x3 +     0 x4 +     0 x5 +     2 x6 >= 0
+    0 +    -1 x1 +    -1 x2 +    -1 x3 +     2 x4 +     2 x5 +     2 x6 >= 0
+    0 +    -1 x1 +     0 x2 +     0 x3 +     1 x4 +     1 x5 +     1 x6 >= 0
+    0 +    -1 x1 +     1 x2 +    -1 x3 +     2 x4 +     0 x5 +     2 x6 >= 0
+    0 +     0 x1 +     0 x2 +    -1 x3 +     1 x4 +     0 x5 +     1 x6 >= 0
+    1 +    -1 x1 +     0 x2 +    -1 x3 +     1 x4 +     1 x5 +    -1 x6 >= 0
+    2 +    -1 x1 +    -1 x2 +    -1 x3 +     0 x4 +     2 x5 +    -2 x6 >= 0
+    1 +     0 x1 +     0 x2 +     0 x3 +     0 x4 +     0 x5 +    -2 x6 >= 0
+    0 +     0 x1 +     0 x2 +     0 x3 +     1 x4 +     0 x5 +     0 x6 >= 0
+    0 +    -1 x1 +     1 x2 +    -1 x3 +     2 x4 +     2 x5 +     0 x6 >= 0
+    0 +     0 x1 +     0 x2 +    -1 x3 +     1 x4 +     1 x5 +     0 x6 >= 0
+    2 +    -1 x1 +    -1 x2 +    -1 x3 +     2 x4 +    -2 x5 +     0 x6 >= 0
+    1 +     0 x1 +     0 x2 +    -1 x3 +     1 x4 +    -1 x5 +    -1 x6 >= 0
+    2 +    -1 x1 +    -1 x2 +    -1 x3 +     2 x4 +     0 x5 +    -2 x6 >= 0
+    0 +     1 x1 +    -1 x2 +    -1 x3 +     2 x4 +     0 x5 +     0 x6 >= 0
+    0 +     1 x1 +    -1 x2 +     0 x3 +     0 x4 +     0 x5 +     0 x6 >= 0
+    2 +    -1 x1 +    -1 x2 +    -1 x3 +     0 x4 +    -2 x5 +     2 x6 >= 0
+    0 +     0 x1 +     1 x2 +    -1 x3 +     0 x4 +     0 x5 +     0 x6 >= 0
+    2 +    -1 x1 +    -1 x2 +    -1 x3 +    -2 x4 +     2 x5 +     0 x6 >= 0
+    1 +     0 x1 +     0 x2 +    -1 x3 +    -1 x4 +     1 x5 +    -1 x6 >= 0
+    1 +    -1 x1 +    -1 x2 +     0 x3 +     0 x4 +     0 x5 +     0 x6 >= 0
+    0 +     1 x1 +    -1 x2 +    -1 x3 +     0 x4 +     2 x5 +     0 x6 >= 0
+    0 +     1 x1 +     1 x2 +    -1 x3 +    -2 x4 +     2 x5 +     2 x6 >= 0
+    0 +     0 x1 +     1 x2 +     0 x3 +    -1 x4 +     1 x5 +     1 x6 >= 0
+    0 +     0 x1 +     0 x2 +     0 x3 +     0 x4 +     1 x5 +     0 x6 >= 0
+    0 +     0 x1 +     1 x2 +     0 x3 +     1 x4 +     1 x5 +    -1 x6 >= 0
+    0 +     1 x1 +     1 x2 +    -1 x3 +     2 x4 +     2 x5 +    -2 x6 >= 0
+    0 +     0 x1 +     0 x2 +     0 x3 +     0 x4 +     0 x5 +     1 x6 >= 0
+    0 +     0 x1 +     0 x2 +     1 x3 +     0 x4 +     0 x5 +     0 x6 >= 0
+,
+# origin ∩ anonymous_convex_polytope_7 ∩ anonymous_convex_polytope_7 ∩ anonymous_convex_polytope_8 ∩ anonymous_convex_polytope_7: 
+    0 +     0 x1 +     1 x2 +    -1 x3 +     0 x4 +     0 x5 +     0 x6 >= 0
+    1 +     0 x1 +     0 x2 +     0 x3 +    -2 x4 +     0 x5 +     0 x6 >= 0
+    1 +     1 x1 +    -1 x2 +    -1 x3 +    -2 x4 +     2 x5 +     0 x6 >= 0
+    0 +     0 x1 +     0 x2 +     0 x3 +     0 x4 +     1 x5 +     0 x6 >= 0
+    0 +     0 x1 +     0 x2 +     1 x3 +     0 x4 +     0 x5 +     0 x6 >= 0
+    1 +     0 x1 +     0 x2 +     0 x3 +     0 x4 +    -2 x5 +     0 x6 >= 0
+    0 +     0 x1 +     1 x2 +     0 x3 +     1 x4 +     1 x5 +    -1 x6 >= 0
+    1 +     0 x1 +     0 x2 +    -1 x3 +    -1 x4 +    -1 x5 +     1 x6 >= 0
+    0 +     1 x1 +    -1 x2 +     0 x3 +     0 x4 +     0 x5 +     0 x6 >= 0
+    1 +     1 x1 +    -1 x2 +    -1 x3 +    -2 x4 +     0 x5 +     2 x6 >= 0
+    1 +    -1 x1 +     1 x2 +    -1 x3 +    -2 x4 +     2 x5 +     2 x6 >= 0
+    1 +     1 x1 +    -1 x2 +    -1 x3 +     0 x4 +    -2 x5 +     2 x6 >= 0
+    0 +     0 x1 +     0 x2 +     0 x3 +     0 x4 +     0 x5 +     1 x6 >= 0
+   -1 +     1 x1 +     1 x2 +    -1 x3 +     0 x4 +     2 x5 +     2 x6 >= 0
+    0 +     0 x1 +     1 x2 +     0 x3 +    -1 x4 +     1 x5 +     1 x6 >= 0
+    1 +    -1 x1 +     1 x2 +    -1 x3 +     2 x4 +     2 x5 +    -2 x6 >= 0
+   -1 +     1 x1 +     1 x2 +    -1 x3 +     2 x4 +     0 x5 +     2 x6 >= 0
+    0 +     0 x1 +     1 x2 +     0 x3 +     1 x4 +    -1 x5 +     1 x6 >= 0
+   -1 +     1 x1 +     0 x2 +     0 x3 +     1 x4 +     1 x5 +     1 x6 >= 0
+    0 +     0 x1 +     0 x2 +     0 x3 +     1 x4 +     0 x5 +     0 x6 >= 0
+    1 +     0 x1 +     0 x2 +     0 x3 +     0 x4 +     0 x5 +    -2 x6 >= 0
+    1 +     1 x1 +    -1 x2 +    -1 x3 +     2 x4 +    -2 x5 +     0 x6 >= 0
+    1 +     0 x1 +     0 x2 +    -1 x3 +     1 x4 +    -1 x5 +    -1 x6 >= 0
+    1 +     1 x1 +    -1 x2 +    -1 x3 +     2 x4 +     0 x5 +    -2 x6 >= 0
+    1 +     0 x1 +     0 x2 +    -1 x3 +    -1 x4 +     1 x5 +    -1 x6 >= 0
+    1 +     1 x1 +    -1 x2 +    -1 x3 +     0 x4 +     2 x5 +    -2 x6 >= 0
+    1 +    -1 x1 +    -1 x2 +    -1 x3 +     0 x4 +     2 x5 +     0 x6 >= 0
+    0 +     0 x1 +     0 x2 +    -1 x3 +     1 x4 +     1 x5 +     0 x6 >= 0
+    0 +     1 x1 +     0 x2 +    -1 x3 +     1 x4 +     1 x5 +    -1 x6 >= 0
+    1 +    -1 x1 +    -1 x2 +     0 x3 +     0 x4 +     0 x5 +     0 x6 >= 0
+    1 +    -1 x1 +    -1 x2 +    -1 x3 +     2 x4 +     0 x5 +     0 x6 >= 0
+   -1 +     1 x1 +     1 x2 +    -1 x3 +     2 x4 +     2 x5 +     0 x6 >= 0
+    0 +     0 x1 +     0 x2 +    -1 x3 +     0 x4 +     1 x5 +     1 x6 >= 0
+    1 +    -1 x1 +    -1 x2 +    -1 x3 +     0 x4 +     0 x5 +     2 x6 >= 0
+    0 +     0 x1 +     0 x2 +    -1 x3 +     1 x4 +     0 x5 +     1 x6 >= 0
+    1 +    -1 x1 +     1 x2 +    -1 x3 +     2 x4 +    -2 x5 +     2 x6 >= 0
+   -1 +     1 x1 +    -1 x2 +    -1 x3 +     2 x4 +     2 x5 +     2 x6 >= 0
+,
+# origin ∩ anonymous_convex_polytope_7 ∩ anonymous_convex_polytope_7 ∩ anonymous_convex_polytope_7 ∩ anonymous_convex_polytope_8: 
+    0 +     0 x1 +     1 x2 +    -1 x3 +     0 x4 +     0 x5 +     0 x6 >= 0
+    1 +     0 x1 +    -1 x2 +    -1 x3 +     1 x4 +    -1 x5 +     0 x6 >= 0
+    1 +     0 x1 +     0 x2 +    -1 x3 +     1 x4 +    -1 x5 +    -1 x6 >= 0
+    1 +    -1 x1 +    -1 x2 +    -1 x3 +     2 x4 +     0 x5 +     0 x6 >= 0
+    0 +     0 x1 +     0 x2 +    -1 x3 +     0 x4 +     0 x5 +     1 x6 >= 0
+   -1 +     1 x1 +     0 x2 +     0 x3 +     1 x4 +     1 x5 +     1 x6 >= 0
+   -1 +     1 x1 +     1 x2 +    -1 x3 +     2 x4 +     0 x5 +     2 x6 >= 0
+    1 +     0 x1 +     0 x2 +     0 x3 +     0 x4 +    -2 x5 +     0 x6 >= 0
+    1 +    -1 x1 +     0 x2 +    -1 x3 +     1 x4 +    -1 x5 +     1 x6 >= 0
+    0 +     0 x1 +     0 x2 +     1 x3 +     0 x4 +     0 x5 +     0 x6 >= 0
+    0 +     0 x1 +     1 x2 +     0 x3 +     1 x4 +    -1 x5 +     1 x6 >= 0
+    0 +     1 x1 +     0 x2 +    -1 x3 +    -1 x4 +     1 x5 +     1 x6 >= 0
+   -1 +     1 x1 +     1 x2 +    -1 x3 +     0 x4 +     2 x5 +     2 x6 >= 0
+    0 +     0 x1 +     1 x2 +     0 x3 +    -1 x4 +     1 x5 +     1 x6 >= 0
+    1 +     1 x1 +    -1 x2 +    -1 x3 +    -2 x4 +     2 x5 +     0 x6 >= 0
+    0 +     0 x1 +     0 x2 +     0 x3 +     0 x4 +     1 x5 +     0 x6 >= 0
+    1 +     1 x1 +    -1 x2 +    -1 x3 +     2 x4 +    -2 x5 +     0 x6 >= 0
+    0 +     1 x1 +     0 x2 +    -1 x3 +     1 x4 +    -1 x5 +     1 x6 >= 0
+    0 +     0 x1 +     0 x2 +     0 x3 +     1 x4 +     0 x5 +     0 x6 >= 0
+    0 +     0 x1 +     1 x2 +     0 x3 +     1 x4 +     1 x5 +    -1 x6 >= 0
+    0 +     1 x1 +    -1 x2 +     0 x3 +     0 x4 +     0 x5 +     0 x6 >= 0
+    1 +     1 x1 +    -1 x2 +    -1 x3 +     2 x4 +     0 x5 +    -2 x6 >= 0
+    0 +     0 x1 +    -1 x2 +    -1 x3 +     1 x4 +     1 x5 +     1 x6 >= 0
+   -1 +     1 x1 +     1 x2 +    -1 x3 +     2 x4 +     2 x5 +     0 x6 >= 0
+    0 +     0 x1 +     0 x2 +    -1 x3 +     1 x4 +     1 x5 +     0 x6 >= 0
+    1 +     0 x1 +     0 x2 +     0 x3 +     0 x4 +     0 x5 +    -2 x6 >= 0
+    1 +    -1 x1 +    -1 x2 +    -1 x3 +     0 x4 +     2 x5 +     0 x6 >= 0
+    1 +     0 x1 +    -1 x2 +    -1 x3 +    -1 x4 +     1 x5 +     0 x6 >= 0
+    1 +    -1 x1 +     0 x2 +    -1 x3 +    -1 x4 +     1 x5 +     1 x6 >= 0
+    1 +    -1 x1 +    -1 x2 +     0 x3 +     0 x4 +     0 x5 +     0 x6 >= 0
+    1 +    -1 x1 +     0 x2 +    -1 x3 +     1 x4 +     1 x5 +    -1 x6 >= 0
+    1 +     0 x1 +     0 x2 +     0 x3 +    -2 x4 +     0 x5 +     0 x6 >= 0
+    1 +     0 x1 +     0 x2 +    -1 x3 +    -1 x4 +     1 x5 +    -1 x6 >= 0
+    1 +     1 x1 +    -1 x2 +    -1 x3 +     0 x4 +     2 x5 +    -2 x6 >= 0
+,
+# origin ∩ anonymous_convex_polytope_7 ∩ anonymous_convex_polytope_7 ∩ anonymous_convex_polytope_8 ∩ anonymous_convex_polytope_8: 
+    1 +     0 x1 +     0 x2 +     0 x3 +     0 x4 +    -2 x5 +     0 x6 >= 0
+    0 +     0 x1 +     0 x2 +     1 x3 +     0 x4 +     0 x5 +     0 x6 >= 0
+    1 +    -1 x1 +    -1 x2 +     0 x3 +     0 x4 +     0 x5 +     0 x6 >= 0
+    1 +    -1 x1 +     0 x2 +    -1 x3 +     1 x4 +    -1 x5 +     1 x6 >= 0
+    0 +     0 x1 +     0 x2 +    -1 x3 +     0 x4 +     0 x5 +     1 x6 >= 0
+    0 +     1 x1 +     0 x2 +    -1 x3 +     1 x4 +    -1 x5 +     1 x6 >= 0
+    0 +     1 x1 +     0 x2 +    -1 x3 +    -1 x4 +     1 x5 +     1 x6 >= 0
+    0 +     0 x1 +     1 x2 +     0 x3 +    -1 x4 +     1 x5 +     1 x6 >= 0
+    1 +     0 x1 +     0 x2 +     0 x3 +    -2 x4 +     0 x5 +     0 x6 >= 0
+    1 +    -1 x1 +     0 x2 +    -1 x3 +    -1 x4 +     1 x5 +     1 x6 >= 0
+    2 +    -1 x1 +    -1 x2 +    -1 x3 +    -2 x4 +     2 x5 +     0 x6 >= 0
+    1 +     0 x1 +    -1 x2 +    -1 x3 +    -1 x4 +     1 x5 +     0 x6 >= 0
+    0 +     0 x1 +     1 x2 +    -1 x3 +     0 x4 +     0 x5 +     0 x6 >= 0
+    0 +    -1 x1 +     1 x2 +    -1 x3 +     0 x4 +     2 x5 +     2 x6 >= 0
+    0 +    -1 x1 +     1 x2 +    -1 x3 +     2 x4 +     2 x5 +     0 x6 >= 0
+    0 +     0 x1 +     0 x2 +     0 x3 +     0 x4 +     1 x5 +     0 x6 >= 0
+    2 +    -1 x1 +    -1 x2 +    -1 x3 +     0 x4 +     2 x5 +    -2 x6 >= 0
+    1 +     0 x1 +     0 x2 +    -1 x3 +    -1 x4 +     1 x5 +    -1 x6 >= 0
+    0 +     1 x1 +    -1 x2 +    -1 x3 +     0 x4 +     2 x5 +     0 x6 >= 0
+    0 +     0 x1 +     0 x2 +    -1 x3 +     1 x4 +     1 x5 +     0 x6 >= 0
+    0 +     0 x1 +     1 x2 +     0 x3 +     1 x4 +    -1 x5 +     1 x6 >= 0
+    0 +    -1 x1 +     1 x2 +    -1 x3 +     2 x4 +     0 x5 +     2 x6 >= 0
+    0 +    -1 x1 +     0 x2 +     0 x3 +     1 x4 +     1 x5 +     1 x6 >= 0
+    0 +     1 x1 +    -1 x2 +     0 x3 +     0 x4 +     0 x5 +     0 x6 >= 0
+    0 +     0 x1 +    -1 x2 +    -1 x3 +     1 x4 +     1 x5 +     1 x6 >= 0
+    2 +    -1 x1 +    -1 x2 +    -1 x3 +     2 x4 +     0 x5 +    -2 x6 >= 0
+    1 +     0 x1 +     0 x2 +     0 x3 +     0 x4 +     0 x5 +    -2 x6 >= 0
+    0 +     1 x1 +     0 x2 +    -1 x3 +     1 x4 +     1 x5 +    -1 x6 >= 0
+    0 +     0 x1 +     1 x2 +     0 x3 +     1 x4 +     1 x5 +    -1 x6 >= 0
+    0 +     0 x1 +     0 x2 +     0 x3 +     1 x4 +     0 x5 +     0 x6 >= 0
+    2 +    -1 x1 +    -1 x2 +    -1 x3 +     2 x4 +    -2 x5 +     0 x6 >= 0
+    1 +     0 x1 +    -1 x2 +    -1 x3 +     1 x4 +    -1 x5 +     0 x6 >= 0
+    0 +     1 x1 +    -1 x2 +    -1 x3 +     2 x4 +     0 x5 +     0 x6 >= 0
+    1 +     0 x1 +     0 x2 +    -1 x3 +     1 x4 +    -1 x5 +    -1 x6 >= 0
+
+]
+Working on an XY interaction sequence of length 4...
+^CWorking on the reduction 1/3...Traceback (most recent call last):
+  File "/Users/minhpham/Documents/Research/laughing-umbrella/xx_synthesis/xy_dont_sleep.py", line 70, in <module>
+    xy_polytope = project(xy_polytope, 3).reduce()
+  File "/Users/minhpham/Documents/Research/laughing-umbrella/xx_synthesis/monodromy/monodromy/polytopes.py", line 223, in reduce
+    convex_subpolytopes=[convex_subpolytope.reduce()]
+  File "/Users/minhpham/Documents/Research/laughing-umbrella/xx_synthesis/monodromy/monodromy/polytopes.py", line 103, in reduce
+    return monodromy.backend.backend.reduce(self)
+  File "/Users/minhpham/Documents/Research/laughing-umbrella/xx_synthesis/monodromy/monodromy/backend/lrs.py", line 93, in reduce
+    vertex_response = single_lrs_pass(inequality_payload)
+  File "/Users/minhpham/Documents/Research/laughing-umbrella/xx_synthesis/monodromy/monodromy/backend/lrs.py", line 148, in single_lrs_pass
+    stdout, stderr = proc.communicate(payload)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/subprocess.py", line 1149, in communicate
+    stdout, stderr = self._communicate(input, endtime, timeout)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/subprocess.py", line 2000, in _communicate
+    ready = selector.select(timeout)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/selectors.py", line 416, in select
+    fd_event_list = self._selector.poll(timeout)
+KeyboardInterrupt
+
+(base) Minhs-MacBook-Pro:xx_synthesis minhpham$ caffeinate python3 xy_dont_sleep.py 
+  File "/Users/minhpham/Documents/Research/laughing-umbrella/xx_synthesis/xy_dont_sleep.py", line 3
+    def testing()
+                 ^
+SyntaxError: expected ':'
+(base) Minhs-MacBook-Pro:xx_synthesis minhpham$ caffeinate python3 xy_dont_sleep.py 
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+(base) Minhs-MacBook-Pro:xx_synthesis minhpham$ caffeinate python3 xy_dont_sleep.py 
+/Users/minhpham/Documents/Research/laughing-umbrella/xx_synthesis/monodromy/lrslib-071b/lrs
+Working on an XY interaction sequence of length 0...
+Working on the reduction 1/3... done.  Took 0.10173929389566183 seconds.
+Working on the reduction 2/3... done.  Took 0.09324822411872447 seconds.
+Working on the reduction 3/3... done.  Took 0.0909483649302274 seconds.
+The first three coordinates are the canonical coordinates CAN(x1, x2, x3).
+The remaining coordinates x4, ..., xk are the XY interaction strengths.
+[
+# origin ∩ anonymous_convex_polytope_7: 
+    1 +     0 x1 +     0 x2 +     0 x3 >= 0
+    0 +     1 x1 +     0 x2 +     0 x3 == 0
+    0 +     0 x1 +     1 x2 +     0 x3 == 0
+    0 +     0 x1 +     0 x2 +     1 x3 == 0
+,
+# origin ∩ anonymous_convex_polytope_8: 
+    1 +     0 x1 +     0 x2 +     0 x3 >= 0
+   -1 +     1 x1 +     0 x2 +     0 x3 == 0
+    0 +     0 x1 +     1 x2 +     0 x3 == 0
+    0 +     0 x1 +     0 x2 +     1 x3 == 0
+
+]
+Working on an XY interaction sequence of length 1...
+Working on the reduction 1/3... done.  Took 0.22094683605246246 seconds.
+Working on the reduction 2/3... done.  Took 0.19091501086950302 seconds.
+Working on the reduction 3/3... done.  Took 0.30466993199661374 seconds.
+The first three coordinates are the canonical coordinates CAN(x1, x2, x3).
+The remaining coordinates x4, ..., xk are the XY interaction strengths.
+[
+# origin ∩ anonymous_convex_polytope_7 ∩ anonymous_convex_polytope_7: 
+    1 +    -2 x1 +     0 x2 +     0 x3 +     0 x4 >= 0
+    0 +     1 x1 +     0 x2 +     0 x3 +     0 x4 >= 0
+    0 +    -1 x1 +     1 x2 +     0 x3 +     0 x4 == 0
+    0 +     0 x1 +     0 x2 +     1 x3 +     0 x4 == 0
+    0 +    -1 x1 +     0 x2 +     0 x3 +     1 x4 == 0
+,
+# origin ∩ anonymous_convex_polytope_7 ∩ anonymous_convex_polytope_8: 
+    1 +    -1 x1 +     0 x2 +     0 x3 +     0 x4 >= 0
+   -1 +     2 x1 +     0 x2 +     0 x3 +     0 x4 >= 0
+   -1 +     1 x1 +     1 x2 +     0 x3 +     0 x4 == 0
+    0 +     0 x1 +     0 x2 +     1 x3 +     0 x4 == 0
+   -1 +     1 x1 +     0 x2 +     0 x3 +     1 x4 == 0
+
+]
+Working on an XY interaction sequence of length 2...
+Working on the reduction 1/3... done.  Took 0.45632906607352197 seconds.
+Working on the reduction 2/3... done.  Took 0.21939952997490764 seconds.
+Working on the reduction 3/3... done.  Took 0.4812854412011802 seconds.
+The first three coordinates are the canonical coordinates CAN(x1, x2, x3).
+The remaining coordinates x4, ..., xk are the XY interaction strengths.
+[
+# origin ∩ anonymous_convex_polytope_7 ∩ anonymous_convex_polytope_7 ∩ anonymous_convex_polytope_7: 
+    0 +     1 x1 +    -1 x2 +    -1 x3 +     0 x4 +     0 x5 >= 0
+    1 +     0 x1 +     0 x2 +     0 x3 +    -2 x4 +     0 x5 >= 0
+    1 +     0 x1 +     0 x2 +    -1 x3 +    -1 x4 +    -1 x5 >= 0
+    2 +    -1 x1 +    -1 x2 +    -1 x3 +    -2 x4 +     0 x5 >= 0
+    0 +     0 x1 +     1 x2 +     0 x3 +    -1 x4 +     1 x5 >= 0
+    0 +     0 x1 +     1 x2 +    -1 x3 +     0 x4 +     0 x5 >= 0
+    0 +    -1 x1 +     1 x2 +    -1 x3 +     0 x4 +     2 x5 >= 0
+    0 +     0 x1 +     0 x2 +     1 x3 +     0 x4 +     0 x5 >= 0
+    1 +     0 x1 +     0 x2 +     0 x3 +     0 x4 +    -2 x5 >= 0
+    1 +    -1 x1 +    -1 x2 +     0 x3 +     0 x4 +     0 x5 >= 0
+    2 +    -1 x1 +    -1 x2 +    -1 x3 +     0 x4 +    -2 x5 >= 0
+    0 +     0 x1 +     1 x2 +     0 x3 +     1 x4 +    -1 x5 >= 0
+    0 +    -1 x1 +     0 x2 +     0 x3 +     1 x4 +     1 x5 >= 0
+    0 +    -1 x1 +     1 x2 +    -1 x3 +     2 x4 +     0 x5 >= 0
+,
+# origin ∩ anonymous_convex_polytope_7 ∩ anonymous_convex_polytope_7 ∩ anonymous_convex_polytope_8: 
+    0 +     0 x1 +     1 x2 +     0 x3 +     1 x4 +    -1 x5 >= 0
+    0 +     0 x1 +     1 x2 +    -1 x3 +     0 x4 +     0 x5 >= 0
+    1 +    -1 x1 +    -1 x2 +    -1 x3 +     0 x4 +     0 x5 >= 0
+    1 +     0 x1 +     0 x2 +     0 x3 +     0 x4 +    -2 x5 >= 0
+    1 +     0 x1 +     0 x2 +    -1 x3 +    -1 x4 +    -1 x5 >= 0
+    1 +     1 x1 +    -1 x2 +    -1 x3 +     0 x4 +    -2 x5 >= 0
+    0 +     0 x1 +     0 x2 +     1 x3 +     0 x4 +     0 x5 >= 0
+    0 +     0 x1 +     1 x2 +     0 x3 +    -1 x4 +     1 x5 >= 0
+    1 +     0 x1 +     0 x2 +     0 x3 +    -2 x4 +     0 x5 >= 0
+    0 +     1 x1 +    -1 x2 +     0 x3 +     0 x4 +     0 x5 >= 0
+    1 +     1 x1 +    -1 x2 +    -1 x3 +    -2 x4 +     0 x5 >= 0
+   -1 +     1 x1 +     0 x2 +     0 x3 +     1 x4 +     1 x5 >= 0
+   -1 +     1 x1 +     1 x2 +    -1 x3 +     0 x4 +     2 x5 >= 0
+   -1 +     1 x1 +     1 x2 +    -1 x3 +     2 x4 +     0 x5 >= 0
+
+]
+Working on an XY interaction sequence of length 3...
+Working on the reduction 1/3... done.  Took 47.520767584908754 seconds.
+Working on the reduction 2/3... done.  Took 43.652067421004176 seconds.
+Working on the reduction 3/3... done.  Took 2.881388427922502 seconds.
+The first three coordinates are the canonical coordinates CAN(x1, x2, x3).
+The remaining coordinates x4, ..., xk are the XY interaction strengths.
+[
+# origin ∩ anonymous_convex_polytope_7 ∩ anonymous_convex_polytope_7 ∩ anonymous_convex_polytope_7 ∩ anonymous_convex_polytope_7: 
+    1 +     0 x1 +     0 x2 +     0 x3 +    -2 x4 +     0 x5 +     0 x6 >= 0
+    0 +     0 x1 +     0 x2 +    -1 x3 +     0 x4 +     1 x5 +     1 x6 >= 0
+    0 +    -1 x1 +     1 x2 +    -1 x3 +     0 x4 +     2 x5 +     2 x6 >= 0
+    1 +     0 x1 +     0 x2 +    -1 x3 +    -1 x4 +    -1 x5 +     1 x6 >= 0
+    0 +     0 x1 +     1 x2 +     0 x3 +     1 x4 +    -1 x5 +     1 x6 >= 0
+    0 +     1 x1 +     1 x2 +    -1 x3 +     2 x4 +    -2 x5 +     2 x6 >= 0
+    1 +     0 x1 +     0 x2 +     0 x3 +     0 x4 +    -2 x5 +     0 x6 >= 0
+    2 +    -1 x1 +    -1 x2 +    -1 x3 +    -2 x4 +     0 x5 +     2 x6 >= 0
+    0 +     1 x1 +    -1 x2 +    -1 x3 +     0 x4 +     0 x5 +     2 x6 >= 0
+    0 +    -1 x1 +    -1 x2 +    -1 x3 +     2 x4 +     2 x5 +     2 x6 >= 0
+    0 +    -1 x1 +     0 x2 +     0 x3 +     1 x4 +     1 x5 +     1 x6 >= 0
+    0 +    -1 x1 +     1 x2 +    -1 x3 +     2 x4 +     0 x5 +     2 x6 >= 0
+    0 +     0 x1 +     0 x2 +    -1 x3 +     1 x4 +     0 x5 +     1 x6 >= 0
+    1 +    -1 x1 +     0 x2 +    -1 x3 +     1 x4 +     1 x5 +    -1 x6 >= 0
+    2 +    -1 x1 +    -1 x2 +    -1 x3 +     0 x4 +     2 x5 +    -2 x6 >= 0
+    1 +     0 x1 +     0 x2 +     0 x3 +     0 x4 +     0 x5 +    -2 x6 >= 0
+    0 +     0 x1 +     0 x2 +     0 x3 +     1 x4 +     0 x5 +     0 x6 >= 0
+    0 +    -1 x1 +     1 x2 +    -1 x3 +     2 x4 +     2 x5 +     0 x6 >= 0
+    0 +     0 x1 +     0 x2 +    -1 x3 +     1 x4 +     1 x5 +     0 x6 >= 0
+    2 +    -1 x1 +    -1 x2 +    -1 x3 +     2 x4 +    -2 x5 +     0 x6 >= 0
+    1 +     0 x1 +     0 x2 +    -1 x3 +     1 x4 +    -1 x5 +    -1 x6 >= 0
+    2 +    -1 x1 +    -1 x2 +    -1 x3 +     2 x4 +     0 x5 +    -2 x6 >= 0
+    0 +     1 x1 +    -1 x2 +    -1 x3 +     2 x4 +     0 x5 +     0 x6 >= 0
+    0 +     1 x1 +    -1 x2 +     0 x3 +     0 x4 +     0 x5 +     0 x6 >= 0
+    2 +    -1 x1 +    -1 x2 +    -1 x3 +     0 x4 +    -2 x5 +     2 x6 >= 0
+    0 +     0 x1 +     1 x2 +    -1 x3 +     0 x4 +     0 x5 +     0 x6 >= 0
+    2 +    -1 x1 +    -1 x2 +    -1 x3 +    -2 x4 +     2 x5 +     0 x6 >= 0
+    1 +     0 x1 +     0 x2 +    -1 x3 +    -1 x4 +     1 x5 +    -1 x6 >= 0
+    1 +    -1 x1 +    -1 x2 +     0 x3 +     0 x4 +     0 x5 +     0 x6 >= 0
+    0 +     1 x1 +    -1 x2 +    -1 x3 +     0 x4 +     2 x5 +     0 x6 >= 0
+    0 +     1 x1 +     1 x2 +    -1 x3 +    -2 x4 +     2 x5 +     2 x6 >= 0
+    0 +     0 x1 +     1 x2 +     0 x3 +    -1 x4 +     1 x5 +     1 x6 >= 0
+    0 +     0 x1 +     0 x2 +     0 x3 +     0 x4 +     1 x5 +     0 x6 >= 0
+    0 +     0 x1 +     1 x2 +     0 x3 +     1 x4 +     1 x5 +    -1 x6 >= 0
+    0 +     1 x1 +     1 x2 +    -1 x3 +     2 x4 +     2 x5 +    -2 x6 >= 0
+    0 +     0 x1 +     0 x2 +     0 x3 +     0 x4 +     0 x5 +     1 x6 >= 0
+    0 +     0 x1 +     0 x2 +     1 x3 +     0 x4 +     0 x5 +     0 x6 >= 0
+,
+# origin ∩ anonymous_convex_polytope_7 ∩ anonymous_convex_polytope_7 ∩ anonymous_convex_polytope_8 ∩ anonymous_convex_polytope_7: 
+    0 +     0 x1 +     1 x2 +    -1 x3 +     0 x4 +     0 x5 +     0 x6 >= 0
+    1 +     0 x1 +     0 x2 +     0 x3 +    -2 x4 +     0 x5 +     0 x6 >= 0
+    1 +     1 x1 +    -1 x2 +    -1 x3 +    -2 x4 +     2 x5 +     0 x6 >= 0
+    0 +     0 x1 +     0 x2 +     0 x3 +     0 x4 +     1 x5 +     0 x6 >= 0
+    0 +     0 x1 +     0 x2 +     1 x3 +     0 x4 +     0 x5 +     0 x6 >= 0
+    1 +     0 x1 +     0 x2 +     0 x3 +     0 x4 +    -2 x5 +     0 x6 >= 0
+    0 +     0 x1 +     1 x2 +     0 x3 +     1 x4 +     1 x5 +    -1 x6 >= 0
+    1 +     0 x1 +     0 x2 +    -1 x3 +    -1 x4 +    -1 x5 +     1 x6 >= 0
+    0 +     1 x1 +    -1 x2 +     0 x3 +     0 x4 +     0 x5 +     0 x6 >= 0
+    1 +     1 x1 +    -1 x2 +    -1 x3 +    -2 x4 +     0 x5 +     2 x6 >= 0
+    1 +    -1 x1 +     1 x2 +    -1 x3 +    -2 x4 +     2 x5 +     2 x6 >= 0
+    1 +     1 x1 +    -1 x2 +    -1 x3 +     0 x4 +    -2 x5 +     2 x6 >= 0
+    0 +     0 x1 +     0 x2 +     0 x3 +     0 x4 +     0 x5 +     1 x6 >= 0
+   -1 +     1 x1 +     1 x2 +    -1 x3 +     0 x4 +     2 x5 +     2 x6 >= 0
+    0 +     0 x1 +     1 x2 +     0 x3 +    -1 x4 +     1 x5 +     1 x6 >= 0
+    1 +    -1 x1 +     1 x2 +    -1 x3 +     2 x4 +     2 x5 +    -2 x6 >= 0
+   -1 +     1 x1 +     1 x2 +    -1 x3 +     2 x4 +     0 x5 +     2 x6 >= 0
+    0 +     0 x1 +     1 x2 +     0 x3 +     1 x4 +    -1 x5 +     1 x6 >= 0
+   -1 +     1 x1 +     0 x2 +     0 x3 +     1 x4 +     1 x5 +     1 x6 >= 0
+    0 +     0 x1 +     0 x2 +     0 x3 +     1 x4 +     0 x5 +     0 x6 >= 0
+    1 +     0 x1 +     0 x2 +     0 x3 +     0 x4 +     0 x5 +    -2 x6 >= 0
+    1 +     1 x1 +    -1 x2 +    -1 x3 +     2 x4 +    -2 x5 +     0 x6 >= 0
+    1 +     0 x1 +     0 x2 +    -1 x3 +     1 x4 +    -1 x5 +    -1 x6 >= 0
+    1 +     1 x1 +    -1 x2 +    -1 x3 +     2 x4 +     0 x5 +    -2 x6 >= 0
+    1 +     0 x1 +     0 x2 +    -1 x3 +    -1 x4 +     1 x5 +    -1 x6 >= 0
+    1 +     1 x1 +    -1 x2 +    -1 x3 +     0 x4 +     2 x5 +    -2 x6 >= 0
+    1 +    -1 x1 +    -1 x2 +    -1 x3 +     0 x4 +     2 x5 +     0 x6 >= 0
+    0 +     0 x1 +     0 x2 +    -1 x3 +     1 x4 +     1 x5 +     0 x6 >= 0
+    0 +     1 x1 +     0 x2 +    -1 x3 +     1 x4 +     1 x5 +    -1 x6 >= 0
+    1 +    -1 x1 +    -1 x2 +     0 x3 +     0 x4 +     0 x5 +     0 x6 >= 0
+    1 +    -1 x1 +    -1 x2 +    -1 x3 +     2 x4 +     0 x5 +     0 x6 >= 0
+   -1 +     1 x1 +     1 x2 +    -1 x3 +     2 x4 +     2 x5 +     0 x6 >= 0
+    0 +     0 x1 +     0 x2 +    -1 x3 +     0 x4 +     1 x5 +     1 x6 >= 0
+    1 +    -1 x1 +    -1 x2 +    -1 x3 +     0 x4 +     0 x5 +     2 x6 >= 0
+    0 +     0 x1 +     0 x2 +    -1 x3 +     1 x4 +     0 x5 +     1 x6 >= 0
+    1 +    -1 x1 +     1 x2 +    -1 x3 +     2 x4 +    -2 x5 +     2 x6 >= 0
+   -1 +     1 x1 +    -1 x2 +    -1 x3 +     2 x4 +     2 x5 +     2 x6 >= 0
+,
+# origin ∩ anonymous_convex_polytope_7 ∩ anonymous_convex_polytope_7 ∩ anonymous_convex_polytope_7 ∩ anonymous_convex_polytope_8: 
+    0 +     0 x1 +     1 x2 +    -1 x3 +     0 x4 +     0 x5 +     0 x6 >= 0
+    1 +     0 x1 +    -1 x2 +    -1 x3 +     1 x4 +    -1 x5 +     0 x6 >= 0
+    1 +     0 x1 +     0 x2 +    -1 x3 +     1 x4 +    -1 x5 +    -1 x6 >= 0
+    1 +    -1 x1 +    -1 x2 +    -1 x3 +     2 x4 +     0 x5 +     0 x6 >= 0
+    0 +     0 x1 +     0 x2 +    -1 x3 +     0 x4 +     0 x5 +     1 x6 >= 0
+   -1 +     1 x1 +     0 x2 +     0 x3 +     1 x4 +     1 x5 +     1 x6 >= 0
+   -1 +     1 x1 +     1 x2 +    -1 x3 +     2 x4 +     0 x5 +     2 x6 >= 0
+    1 +     0 x1 +     0 x2 +     0 x3 +     0 x4 +    -2 x5 +     0 x6 >= 0
+    1 +    -1 x1 +     0 x2 +    -1 x3 +     1 x4 +    -1 x5 +     1 x6 >= 0
+    0 +     0 x1 +     0 x2 +     1 x3 +     0 x4 +     0 x5 +     0 x6 >= 0
+    0 +     0 x1 +     1 x2 +     0 x3 +     1 x4 +    -1 x5 +     1 x6 >= 0
+    0 +     1 x1 +     0 x2 +    -1 x3 +    -1 x4 +     1 x5 +     1 x6 >= 0
+   -1 +     1 x1 +     1 x2 +    -1 x3 +     0 x4 +     2 x5 +     2 x6 >= 0
+    0 +     0 x1 +     1 x2 +     0 x3 +    -1 x4 +     1 x5 +     1 x6 >= 0
+    1 +     1 x1 +    -1 x2 +    -1 x3 +    -2 x4 +     2 x5 +     0 x6 >= 0
+    0 +     0 x1 +     0 x2 +     0 x3 +     0 x4 +     1 x5 +     0 x6 >= 0
+    1 +     1 x1 +    -1 x2 +    -1 x3 +     2 x4 +    -2 x5 +     0 x6 >= 0
+    0 +     1 x1 +     0 x2 +    -1 x3 +     1 x4 +    -1 x5 +     1 x6 >= 0
+    0 +     0 x1 +     0 x2 +     0 x3 +     1 x4 +     0 x5 +     0 x6 >= 0
+    0 +     0 x1 +     1 x2 +     0 x3 +     1 x4 +     1 x5 +    -1 x6 >= 0
+    0 +     1 x1 +    -1 x2 +     0 x3 +     0 x4 +     0 x5 +     0 x6 >= 0
+    1 +     1 x1 +    -1 x2 +    -1 x3 +     2 x4 +     0 x5 +    -2 x6 >= 0
+    0 +     0 x1 +    -1 x2 +    -1 x3 +     1 x4 +     1 x5 +     1 x6 >= 0
+   -1 +     1 x1 +     1 x2 +    -1 x3 +     2 x4 +     2 x5 +     0 x6 >= 0
+    0 +     0 x1 +     0 x2 +    -1 x3 +     1 x4 +     1 x5 +     0 x6 >= 0
+    1 +     0 x1 +     0 x2 +     0 x3 +     0 x4 +     0 x5 +    -2 x6 >= 0
+    1 +    -1 x1 +    -1 x2 +    -1 x3 +     0 x4 +     2 x5 +     0 x6 >= 0
+    1 +     0 x1 +    -1 x2 +    -1 x3 +    -1 x4 +     1 x5 +     0 x6 >= 0
+    1 +    -1 x1 +     0 x2 +    -1 x3 +    -1 x4 +     1 x5 +     1 x6 >= 0
+    1 +    -1 x1 +    -1 x2 +     0 x3 +     0 x4 +     0 x5 +     0 x6 >= 0
+    1 +    -1 x1 +     0 x2 +    -1 x3 +     1 x4 +     1 x5 +    -1 x6 >= 0
+    1 +     0 x1 +     0 x2 +     0 x3 +    -2 x4 +     0 x5 +     0 x6 >= 0
+    1 +     0 x1 +     0 x2 +    -1 x3 +    -1 x4 +     1 x5 +    -1 x6 >= 0
+    1 +     1 x1 +    -1 x2 +    -1 x3 +     0 x4 +     2 x5 +    -2 x6 >= 0
+,
+# origin ∩ anonymous_convex_polytope_7 ∩ anonymous_convex_polytope_7 ∩ anonymous_convex_polytope_8 ∩ anonymous_convex_polytope_8: 
+    1 +     0 x1 +     0 x2 +     0 x3 +     0 x4 +    -2 x5 +     0 x6 >= 0
+    0 +     0 x1 +     0 x2 +     1 x3 +     0 x4 +     0 x5 +     0 x6 >= 0
+    1 +    -1 x1 +    -1 x2 +     0 x3 +     0 x4 +     0 x5 +     0 x6 >= 0
+    1 +    -1 x1 +     0 x2 +    -1 x3 +     1 x4 +    -1 x5 +     1 x6 >= 0
+    0 +     0 x1 +     0 x2 +    -1 x3 +     0 x4 +     0 x5 +     1 x6 >= 0
+    0 +     1 x1 +     0 x2 +    -1 x3 +     1 x4 +    -1 x5 +     1 x6 >= 0
+    0 +     1 x1 +     0 x2 +    -1 x3 +    -1 x4 +     1 x5 +     1 x6 >= 0
+    0 +     0 x1 +     1 x2 +     0 x3 +    -1 x4 +     1 x5 +     1 x6 >= 0
+    1 +     0 x1 +     0 x2 +     0 x3 +    -2 x4 +     0 x5 +     0 x6 >= 0
+    1 +    -1 x1 +     0 x2 +    -1 x3 +    -1 x4 +     1 x5 +     1 x6 >= 0
+    2 +    -1 x1 +    -1 x2 +    -1 x3 +    -2 x4 +     2 x5 +     0 x6 >= 0
+    1 +     0 x1 +    -1 x2 +    -1 x3 +    -1 x4 +     1 x5 +     0 x6 >= 0
+    0 +     0 x1 +     1 x2 +    -1 x3 +     0 x4 +     0 x5 +     0 x6 >= 0
+    0 +    -1 x1 +     1 x2 +    -1 x3 +     0 x4 +     2 x5 +     2 x6 >= 0
+    0 +    -1 x1 +     1 x2 +    -1 x3 +     2 x4 +     2 x5 +     0 x6 >= 0
+    0 +     0 x1 +     0 x2 +     0 x3 +     0 x4 +     1 x5 +     0 x6 >= 0
+    2 +    -1 x1 +    -1 x2 +    -1 x3 +     0 x4 +     2 x5 +    -2 x6 >= 0
+    1 +     0 x1 +     0 x2 +    -1 x3 +    -1 x4 +     1 x5 +    -1 x6 >= 0
+    0 +     1 x1 +    -1 x2 +    -1 x3 +     0 x4 +     2 x5 +     0 x6 >= 0
+    0 +     0 x1 +     0 x2 +    -1 x3 +     1 x4 +     1 x5 +     0 x6 >= 0
+    0 +     0 x1 +     1 x2 +     0 x3 +     1 x4 +    -1 x5 +     1 x6 >= 0
+    0 +    -1 x1 +     1 x2 +    -1 x3 +     2 x4 +     0 x5 +     2 x6 >= 0
+    0 +    -1 x1 +     0 x2 +     0 x3 +     1 x4 +     1 x5 +     1 x6 >= 0
+    0 +     1 x1 +    -1 x2 +     0 x3 +     0 x4 +     0 x5 +     0 x6 >= 0
+    0 +     0 x1 +    -1 x2 +    -1 x3 +     1 x4 +     1 x5 +     1 x6 >= 0
+    2 +    -1 x1 +    -1 x2 +    -1 x3 +     2 x4 +     0 x5 +    -2 x6 >= 0
+    1 +     0 x1 +     0 x2 +     0 x3 +     0 x4 +     0 x5 +    -2 x6 >= 0
+    0 +     1 x1 +     0 x2 +    -1 x3 +     1 x4 +     1 x5 +    -1 x6 >= 0
+    0 +     0 x1 +     1 x2 +     0 x3 +     1 x4 +     1 x5 +    -1 x6 >= 0
+    0 +     0 x1 +     0 x2 +     0 x3 +     1 x4 +     0 x5 +     0 x6 >= 0
+    2 +    -1 x1 +    -1 x2 +    -1 x3 +     2 x4 +    -2 x5 +     0 x6 >= 0
+    1 +     0 x1 +    -1 x2 +    -1 x3 +     1 x4 +    -1 x5 +     0 x6 >= 0
+    0 +     1 x1 +    -1 x2 +    -1 x3 +     2 x4 +     0 x5 +     0 x6 >= 0
+    1 +     0 x1 +     0 x2 +    -1 x3 +     1 x4 +    -1 x5 +    -1 x6 >= 0
+
+]
+Working on an XY interaction sequence of length 4...
+Working on the reduction 1/3... done.  Took 242797.61901880614 seconds.
+Working on the reduction 2/3... done.  Took 12750.727633005008 seconds.
+Working on the reduction 3/3... done.  Took 130.36791146500036 seconds.
+The first three coordinates are the canonical coordinates CAN(x1, x2, x3).
+The remaining coordinates x4, ..., xk are the XY interaction strengths.
+[
+# origin ∩ anonymous_convex_polytope_7 ∩ anonymous_convex_polytope_7 ∩ anonymous_convex_polytope_7 ∩ anonymous_convex_polytope_7 ∩ anonymous_convex_polytope_7: 
+    0 +     0 x1 +     1 x2 +    -1 x3 +     0 x4 +     0 x5 +     0 x6 +     0 x7 >= 0
+    1 +     0 x1 +     0 x2 +     0 x3 +    -2 x4 +     0 x5 +     0 x6 +     0 x7 >= 0
+    0 +     1 x1 +    -1 x2 +     0 x3 +     0 x4 +     0 x5 +     0 x6 +     0 x7 >= 0
+    1 +     0 x1 +     0 x2 +     0 x3 +     0 x4 +     0 x5 +    -2 x6 +     0 x7 >= 0
+    0 +     0 x1 +     0 x2 +     1 x3 +     0 x4 +     0 x5 +     0 x6 +     0 x7 >= 0
+    1 +     0 x1 +     0 x2 +     0 x3 +     0 x4 +     0 x5 +     0 x6 +    -2 x7 >= 0
+    1 +     0 x1 +     0 x2 +    -1 x3 +     1 x4 +     1 x5 +    -1 x6 +    -1 x7 >= 0
+    0 +     0 x1 +     0 x2 +     0 x3 +     0 x4 +     1 x5 +     0 x6 +     0 x7 >= 0
+    2 +    -1 x1 +    -1 x2 +    -1 x3 +     2 x4 +     2 x5 +    -2 x6 +     0 x7 >= 0
+    0 +     1 x1 +    -1 x2 +    -1 x3 +     0 x4 +     2 x5 +     2 x6 +     0 x7 >= 0
+    0 +     0 x1 +     0 x2 +    -1 x3 +     1 x4 +     1 x5 +     1 x6 +     0 x7 >= 0
+    0 +     1 x1 +     1 x2 +    -1 x3 +     2 x4 +     2 x5 +     2 x6 +    -2 x7 >= 0
+    0 +     0 x1 +     1 x2 +     0 x3 +     1 x4 +     1 x5 +     1 x6 +    -1 x7 >= 0
+    0 +     1 x1 +    -1 x2 +    -1 x3 +     2 x4 +     2 x5 +     0 x6 +     0 x7 >= 0
+    2 +    -1 x1 +    -1 x2 +    -1 x3 +     2 x4 +     2 x5 +     0 x6 +    -2 x7 >= 0
+    2 +    -1 x1 +    -1 x2 +    -1 x3 +     0 x4 +     2 x5 +    -2 x6 +     2 x7 >= 0
+    1 +    -1 x1 +     0 x2 +    -1 x3 +     1 x4 +     1 x5 +    -1 x6 +     2 x7 >= 0
+    0 +     1 x1 +    -1 x2 +    -1 x3 +     0 x4 +     2 x5 +     0 x6 +     2 x7 >= 0
+    2 +    -1 x1 +    -1 x2 +    -1 x3 +    -2 x4 +     2 x5 +     0 x6 +     2 x7 >= 0
+    0 +     0 x1 +     1 x2 +     0 x3 +     1 x4 +     1 x5 +    -1 x6 +     1 x7 >= 0
+    0 +     1 x1 +     1 x2 +    -1 x3 +     2 x4 +     2 x5 +    -2 x6 +     2 x7 >= 0
+    0 +     0 x1 +     1 x2 +     0 x3 +    -1 x4 +     1 x5 +     1 x6 +     1 x7 >= 0
+    0 +     1 x1 +    -1 x2 +    -1 x3 +     2 x4 +     0 x5 +     2 x6 +     0 x7 >= 0
+    2 +    -1 x1 +    -1 x2 +    -1 x3 +    -2 x4 +     2 x5 +     2 x6 +     0 x7 >= 0
+    1 +     0 x1 +     0 x2 +    -1 x3 +    -1 x4 +     1 x5 +     1 x6 +    -1 x7 >= 0
+    2 +    -1 x1 +    -1 x2 +    -1 x3 +     0 x4 +    -2 x5 +     2 x6 +     2 x7 >= 0
+    2 +    -1 x1 +    -1 x2 +    -1 x3 +    -2 x4 +     0 x5 +     2 x6 +     2 x7 >= 0
+    2 +    -1 x1 +    -1 x2 +    -1 x3 +     0 x4 +     2 x5 +     2 x6 +    -2 x7 >= 0
+    0 +     1 x1 +     1 x2 +    -1 x3 +    -2 x4 +     2 x5 +     2 x6 +     2 x7 >= 0
+    2 +    -1 x1 +    -1 x2 +    -1 x3 +     2 x4 +    -2 x5 +     2 x6 +     0 x7 >= 0
+    2 +    -1 x1 +    -1 x2 +    -1 x3 +     2 x4 +     0 x5 +     2 x6 +    -2 x7 >= 0
+    1 +    -1 x1 +    -1 x2 +     0 x3 +     0 x4 +     0 x5 +     0 x6 +     0 x7 >= 0
+    1 +    -1 x1 +     0 x2 +    -1 x3 +     1 x4 +     1 x5 +     1 x6 +    -1 x7 >= 0
+    0 +     1 x1 +    -1 x2 +    -1 x3 +     0 x4 +     0 x5 +     2 x6 +     2 x7 >= 0
+    0 +     0 x1 +     0 x2 +    -1 x3 +     1 x4 +     0 x5 +     1 x6 +     1 x7 >= 0
+    1 +     0 x1 +     0 x2 +    -1 x3 +     1 x4 +    -1 x5 +     1 x6 +    -1 x7 >= 0
+    2 +    -1 x1 +    -1 x2 +    -1 x3 +     2 x4 +     0 x5 +    -2 x6 +     2 x7 >= 0
+    0 +     1 x1 +    -1 x2 +    -1 x3 +     2 x4 +     0 x5 +     0 x6 +     2 x7 >= 0
+    0 +     0 x1 +     0 x2 +    -1 x3 +     1 x4 +     1 x5 +     0 x6 +     1 x7 >= 0
+    0 +    -1 x1 +     0 x2 +     0 x3 +     1 x4 +     1 x5 +     1 x6 +     1 x7 >= 0
+    0 +    -1 x1 +     1 x2 +    -1 x3 +     2 x4 +     0 x5 +     2 x6 +     2 x7 >= 0
+    0 +    -1 x1 +     1 x2 +    -1 x3 +     0 x4 +     2 x5 +     2 x6 +     2 x7 >= 0
+    0 +    -1 x1 +     1 x2 +    -1 x3 +     2 x4 +     2 x5 +     2 x6 +     0 x7 >= 0
+    0 +    -1 x1 +    -1 x2 +    -1 x3 +     2 x4 +     2 x5 +     2 x6 +     2 x7 >= 0
+    0 +     0 x1 +     0 x2 +    -1 x3 +     0 x4 +     1 x5 +     1 x6 +     1 x7 >= 0
+    0 +    -1 x1 +     1 x2 +    -1 x3 +     2 x4 +     2 x5 +     0 x6 +     2 x7 >= 0
+    0 +     0 x1 +     0 x2 +     0 x3 +     1 x4 +     0 x5 +     0 x6 +     0 x7 >= 0
+    0 +     0 x1 +     1 x2 +     0 x3 +     1 x4 +    -1 x5 +     1 x6 +     1 x7 >= 0
+    0 +     1 x1 +     1 x2 +    -1 x3 +     2 x4 +    -2 x5 +     2 x6 +     2 x7 >= 0
+    0 +     0 x1 +     0 x2 +     0 x3 +     0 x4 +     0 x5 +     1 x6 +     0 x7 >= 0
+    1 +     0 x1 +     0 x2 +    -1 x3 +    -1 x4 +     1 x5 +    -1 x6 +     1 x7 >= 0
+    1 +     0 x1 +     0 x2 +     0 x3 +     0 x4 +    -2 x5 +     0 x6 +     0 x7 >= 0
+    1 +     0 x1 +     0 x2 +    -1 x3 +    -1 x4 +    -1 x5 +     1 x6 +     1 x7 >= 0
+    1 +     0 x1 +     0 x2 +    -1 x3 +     1 x4 +    -1 x5 +    -1 x6 +     1 x7 >= 0
+    2 +    -1 x1 +    -1 x2 +    -1 x3 +     2 x4 +    -2 x5 +     0 x6 +     2 x7 >= 0
+    0 +     0 x1 +     0 x2 +     0 x3 +     0 x4 +     0 x5 +     0 x6 +     1 x7 >= 0
+,
+# origin ∩ anonymous_convex_polytope_7 ∩ anonymous_convex_polytope_7 ∩ anonymous_convex_polytope_8 ∩ anonymous_convex_polytope_7 ∩ anonymous_convex_polytope_7: 
+    0 +     0 x1 +     1 x2 +    -1 x3 +     0 x4 +     0 x5 +     0 x6 +     0 x7 >= 0
+    1 +    -1 x1 +    -1 x2 +     0 x3 +     0 x4 +     0 x5 +     0 x6 +     0 x7 >= 0
+    1 +    -1 x1 +     1 x2 +    -1 x3 +    -2 x4 +     2 x5 +     2 x6 +     2 x7 >= 0
+    1 +     0 x1 +     0 x2 +    -1 x3 +    -1 x4 +    -1 x5 +     1 x6 +     1 x7 >= 0
+    1 +     1 x1 +    -1 x2 +    -1 x3 +    -2 x4 +     0 x5 +     2 x6 +     2 x7 >= 0
+    1 +     0 x1 +     0 x2 +     0 x3 +     0 x4 +     0 x5 +     0 x6 +    -2 x7 >= 0
+    1 +     1 x1 +    -1 x2 +    -1 x3 +    -2 x4 +     2 x5 +     2 x6 +     0 x7 >= 0
+    1 +    -1 x1 +     1 x2 +    -1 x3 +     2 x4 +     2 x5 +     2 x6 +    -2 x7 >= 0
+    1 +     0 x1 +     0 x2 +     0 x3 +    -2 x4 +     0 x5 +     0 x6 +     0 x7 >= 0
+    1 +    -1 x1 +     1 x2 +    -1 x3 +     2 x4 +    -2 x5 +     2 x6 +     2 x7 >= 0
+    1 +     1 x1 +    -1 x2 +    -1 x3 +     0 x4 +    -2 x5 +     2 x6 +     2 x7 >= 0
+    1 +    -1 x1 +    -1 x2 +    -1 x3 +     0 x4 +     0 x5 +     2 x6 +     2 x7 >= 0
+    0 +     0 x1 +     1 x2 +     0 x3 +     1 x4 +    -1 x5 +     1 x6 +     1 x7 >= 0
+    1 +    -1 x1 +    -1 x2 +    -1 x3 +     2 x4 +     0 x5 +     2 x6 +     0 x7 >= 0
+    0 +     0 x1 +     0 x2 +    -1 x3 +     1 x4 +     1 x5 +     1 x6 +     0 x7 >= 0
+    1 +    -1 x1 +    -1 x2 +    -1 x3 +     0 x4 +     2 x5 +     2 x6 +     0 x7 >= 0
+    1 +    -1 x1 +    -1 x2 +    -1 x3 +     2 x4 +     0 x5 +     0 x6 +     2 x7 >= 0
+    1 +    -1 x1 +    -1 x2 +    -1 x3 +     2 x4 +     2 x5 +     0 x6 +     0 x7 >= 0
+    0 +     0 x1 +     0 x2 +     0 x3 +     0 x4 +     0 x5 +     1 x6 +     0 x7 >= 0
+    0 +     0 x1 +     0 x2 +     0 x3 +     1 x4 +     0 x5 +     0 x6 +     0 x7 >= 0
+    1 +     0 x1 +     0 x2 +    -1 x3 +    -1 x4 +     1 x5 +    -1 x6 +     1 x7 >= 0
+    1 +    -1 x1 +    -1 x2 +    -1 x3 +     0 x4 +     2 x5 +     0 x6 +     2 x7 >= 0
+    1 +     1 x1 +    -1 x2 +    -1 x3 +     0 x4 +     2 x5 +    -2 x6 +     2 x7 >= 0
+    1 +     0 x1 +     0 x2 +     0 x3 +     0 x4 +     0 x5 +    -2 x6 +     0 x7 >= 0
+    0 +     1 x1 +     0 x2 +    -1 x3 +     1 x4 +     1 x5 +    -1 x6 +     2 x7 >= 0
+    1 +     1 x1 +    -1 x2 +    -1 x3 +     2 x4 +     0 x5 +    -2 x6 +     2 x7 >= 0
+   -1 +     1 x1 +     1 x2 +    -1 x3 +     2 x4 +     2 x5 +     0 x6 +     2 x7 >= 0
+    0 +     1 x1 +    -1 x2 +     0 x3 +     0 x4 +     0 x5 +     0 x6 +     0 x7 >= 0
+    1 +     1 x1 +    -1 x2 +    -1 x3 +     2 x4 +    -2 x5 +     0 x6 +     2 x7 >= 0
+    1 +     0 x1 +     0 x2 +    -1 x3 +     1 x4 +    -1 x5 +    -1 x6 +     1 x7 >= 0
+    0 +     0 x1 +     0 x2 +    -1 x3 +     0 x4 +     1 x5 +     1 x6 +     1 x7 >= 0
+    0 +     0 x1 +     0 x2 +     0 x3 +     0 x4 +     0 x5 +     0 x6 +     1 x7 >= 0
+   -1 +     1 x1 +    -1 x2 +    -1 x3 +     2 x4 +     2 x5 +     2 x6 +     2 x7 >= 0
+    1 +     1 x1 +    -1 x2 +    -1 x3 +     2 x4 +     0 x5 +     2 x6 +    -2 x7 >= 0
+    0 +     1 x1 +     0 x2 +    -1 x3 +     1 x4 +     1 x5 +     1 x6 +    -1 x7 >= 0
+    1 +     1 x1 +    -1 x2 +    -1 x3 +     2 x4 +     2 x5 +     0 x6 +    -2 x7 >= 0
+    1 +     0 x1 +     0 x2 +    -1 x3 +    -1 x4 +     1 x5 +     1 x6 +    -1 x7 >= 0
+    1 +     1 x1 +    -1 x2 +    -1 x3 +     0 x4 +     2 x5 +     2 x6 +    -2 x7 >= 0
+    0 +     0 x1 +     1 x2 +     0 x3 +     1 x4 +     1 x5 +     1 x6 +    -1 x7 >= 0
+    0 +     0 x1 +     0 x2 +     1 x3 +     0 x4 +     0 x5 +     0 x6 +     0 x7 >= 0
+    0 +     0 x1 +     1 x2 +     0 x3 +     1 x4 +     1 x5 +    -1 x6 +     1 x7 >= 0
+   -1 +     1 x1 +     1 x2 +    -1 x3 +     2 x4 +     2 x5 +     2 x6 +     0 x7 >= 0
+    0 +     0 x1 +     0 x2 +     0 x3 +     0 x4 +     1 x5 +     0 x6 +     0 x7 >= 0
+    1 +     0 x1 +     0 x2 +    -1 x3 +     1 x4 +     1 x5 +    -1 x6 +    -1 x7 >= 0
+    1 +     1 x1 +    -1 x2 +    -1 x3 +    -2 x4 +     2 x5 +     0 x6 +     2 x7 >= 0
+    0 +     0 x1 +     1 x2 +     0 x3 +    -1 x4 +     1 x5 +     1 x6 +     1 x7 >= 0
+   -1 +     1 x1 +     0 x2 +     0 x3 +     1 x4 +     1 x5 +     1 x6 +     1 x7 >= 0
+   -1 +     1 x1 +     1 x2 +    -1 x3 +     0 x4 +     2 x5 +     2 x6 +     2 x7 >= 0
+    1 +     1 x1 +    -1 x2 +    -1 x3 +     2 x4 +     2 x5 +    -2 x6 +     0 x7 >= 0
+    1 +    -1 x1 +     1 x2 +    -1 x3 +     2 x4 +     2 x5 +    -2 x6 +     2 x7 >= 0
+    0 +     0 x1 +     0 x2 +    -1 x3 +     1 x4 +     1 x5 +     0 x6 +     1 x7 >= 0
+    1 +     1 x1 +    -1 x2 +    -1 x3 +     2 x4 +    -2 x5 +     2 x6 +     0 x7 >= 0
+    0 +     0 x1 +     0 x2 +    -1 x3 +     1 x4 +     0 x5 +     1 x6 +     1 x7 >= 0
+    1 +     0 x1 +     0 x2 +     0 x3 +     0 x4 +    -2 x5 +     0 x6 +     0 x7 >= 0
+    1 +     0 x1 +     0 x2 +    -1 x3 +     1 x4 +    -1 x5 +     1 x6 +    -1 x7 >= 0
+   -1 +     1 x1 +     1 x2 +    -1 x3 +     2 x4 +     0 x5 +     2 x6 +     2 x7 >= 0
+,
+# origin ∩ anonymous_convex_polytope_7 ∩ anonymous_convex_polytope_7 ∩ anonymous_convex_polytope_7 ∩ anonymous_convex_polytope_8 ∩ anonymous_convex_polytope_7: 
+    0 +     0 x1 +     1 x2 +    -1 x3 +     0 x4 +     0 x5 +     0 x6 +     0 x7 >= 0
+    1 +     0 x1 +     0 x2 +     0 x3 +     0 x4 +     0 x5 +    -2 x6 +     0 x7 >= 0
+    0 +     1 x1 +    -1 x2 +     0 x3 +     0 x4 +     0 x5 +     0 x6 +     0 x7 >= 0
+    1 +     0 x1 +     0 x2 +     0 x3 +     0 x4 +     0 x5 +     0 x6 +    -2 x7 >= 0
+    0 +     0 x1 +     0 x2 +     0 x3 +     1 x4 +     0 x5 +     0 x6 +     0 x7 >= 0
+    1 +     0 x1 +     0 x2 +    -1 x3 +     1 x4 +    -1 x5 +     1 x6 +    -1 x7 >= 0
+    1 +     0 x1 +    -1 x2 +    -1 x3 +     1 x4 +    -1 x5 +     2 x6 +     0 x7 >= 0
+    1 +     1 x1 +    -1 x2 +    -1 x3 +     2 x4 +    -2 x5 +     2 x6 +     0 x7 >= 0
+    0 +     1 x1 +     0 x2 +    -1 x3 +     1 x4 +    -1 x5 +     2 x6 +     1 x7 >= 0
+    1 +     0 x1 +     0 x2 +     0 x3 +     0 x4 +    -2 x5 +     0 x6 +     0 x7 >= 0
+    0 +     1 x1 +     0 x2 +    -1 x3 +     1 x4 +    -1 x5 +     1 x6 +     2 x7 >= 0
+    1 +     1 x1 +    -1 x2 +    -1 x3 +     2 x4 +    -2 x5 +     0 x6 +     2 x7 >= 0
+    1 +     0 x1 +     0 x2 +    -1 x3 +    -1 x4 +     1 x5 +    -1 x6 +     1 x7 >= 0
+    0 +     0 x1 +     0 x2 +     1 x3 +     0 x4 +     0 x5 +     0 x6 +     0 x7 >= 0
+    0 +     1 x1 +     0 x2 +    -1 x3 +    -1 x4 +     1 x5 +     1 x6 +     2 x7 >= 0
+    1 +    -1 x1 +     0 x2 +    -1 x3 +     1 x4 +    -1 x5 +     1 x6 +     2 x7 >= 0
+    1 +    -1 x1 +     0 x2 +    -1 x3 +     1 x4 +    -1 x5 +     2 x6 +     1 x7 >= 0
+    1 +    -1 x1 +     1 x2 +    -1 x3 +     2 x4 +    -2 x5 +     2 x6 +     2 x7 >= 0
+    0 +     0 x1 +     1 x2 +     0 x3 +     1 x4 +    -1 x5 +     1 x6 +     1 x7 >= 0
+   -1 +     1 x1 +     0 x2 +     0 x3 +     1 x4 +     1 x5 +     1 x6 +     1 x7 >= 0
+    0 +     1 x1 +     0 x2 +    -1 x3 +    -1 x4 +     1 x5 +     2 x6 +     1 x7 >= 0
+    1 +     1 x1 +    -1 x2 +    -1 x3 +     0 x4 +     2 x5 +    -2 x6 +     2 x7 >= 0
+   -1 +     1 x1 +     1 x2 +    -1 x3 +     2 x4 +     0 x5 +     2 x6 +     2 x7 >= 0
+    1 +     0 x1 +    -1 x2 +    -1 x3 +     1 x4 +    -1 x5 +     0 x6 +     2 x7 >= 0
+    1 +     0 x1 +     0 x2 +    -1 x3 +     1 x4 +     1 x5 +    -1 x6 +    -1 x7 >= 0
+    1 +     1 x1 +    -1 x2 +    -1 x3 +     2 x4 +     2 x5 +     0 x6 +    -2 x7 >= 0
+    1 +     1 x1 +    -1 x2 +    -1 x3 +     2 x4 +     0 x5 +     2 x6 +    -2 x7 >= 0
+    1 +    -1 x1 +     0 x2 +    -1 x3 +    -1 x4 +     1 x5 +     2 x6 +     1 x7 >= 0
+    1 +     0 x1 +     0 x2 +     0 x3 +    -2 x4 +     0 x5 +     0 x6 +     0 x7 >= 0
+    0 +     1 x1 +     0 x2 +    -1 x3 +     1 x4 +     1 x5 +     1 x6 +    -1 x7 >= 0
+    1 +     1 x1 +    -1 x2 +    -1 x3 +     0 x4 +     2 x5 +     2 x6 +    -2 x7 >= 0
+   -1 +     1 x1 +     1 x2 +    -1 x3 +     2 x4 +     2 x5 +     2 x6 +     0 x7 >= 0
+    0 +     0 x1 +     1 x2 +     0 x3 +     1 x4 +     1 x5 +     1 x6 +    -1 x7 >= 0
+    0 +     0 x1 +     0 x2 +     0 x3 +     0 x4 +     0 x5 +     1 x6 +     0 x7 >= 0
+    1 +     0 x1 +     0 x2 +    -1 x3 +    -1 x4 +     1 x5 +     1 x6 +    -1 x7 >= 0
+    0 +     0 x1 +     1 x2 +     0 x3 +     1 x4 +     1 x5 +    -1 x6 +     1 x7 >= 0
+    0 +     0 x1 +     0 x2 +     0 x3 +     0 x4 +     0 x5 +     0 x6 +     1 x7 >= 0
+    1 +    -1 x1 +    -1 x2 +    -1 x3 +     2 x4 +     0 x5 +     0 x6 +     2 x7 >= 0
+    1 +     0 x1 +     0 x2 +    -1 x3 +     1 x4 +    -1 x5 +    -1 x6 +     1 x7 >= 0
+    1 +     1 x1 +    -1 x2 +    -1 x3 +     2 x4 +     0 x5 +    -2 x6 +     2 x7 >= 0
+    0 +     0 x1 +    -1 x2 +    -1 x3 +     1 x4 +     1 x5 +     1 x6 +     2 x7 >= 0
+    1 +    -1 x1 +    -1 x2 +    -1 x3 +     2 x4 +     0 x5 +     2 x6 +     0 x7 >= 0
+    1 +    -1 x1 +     1 x2 +    -1 x3 +     2 x4 +     2 x5 +     2 x6 +    -2 x7 >= 0
+    1 +    -1 x1 +    -1 x2 +     0 x3 +     0 x4 +     0 x5 +     0 x6 +     0 x7 >= 0
+    1 +    -1 x1 +    -1 x2 +    -1 x3 +     2 x4 +     2 x5 +     0 x6 +     0 x7 >= 0
+    1 +    -1 x1 +     1 x2 +    -1 x3 +     2 x4 +     2 x5 +    -2 x6 +     2 x7 >= 0
+    1 +    -1 x1 +     0 x2 +    -1 x3 +     1 x4 +     1 x5 +    -1 x6 +     2 x7 >= 0
+    1 +    -1 x1 +     0 x2 +    -1 x3 +    -1 x4 +     1 x5 +     1 x6 +     2 x7 >= 0
+    1 +    -1 x1 +     1 x2 +    -1 x3 +    -2 x4 +     2 x5 +     2 x6 +     2 x7 >= 0
+    0 +     0 x1 +     1 x2 +     0 x3 +    -1 x4 +     1 x5 +     1 x6 +     1 x7 >= 0
+    0 +     0 x1 +     0 x2 +    -1 x3 +     1 x4 +     1 x5 +     0 x6 +     1 x7 >= 0
+    1 +    -1 x1 +    -1 x2 +    -1 x3 +     0 x4 +     2 x5 +     0 x6 +     2 x7 >= 0
+    1 +     1 x1 +    -1 x2 +    -1 x3 +    -2 x4 +     2 x5 +     0 x6 +     2 x7 >= 0
+    1 +     0 x1 +    -1 x2 +    -1 x3 +    -1 x4 +     1 x5 +     0 x6 +     2 x7 >= 0
+    0 +     0 x1 +    -1 x2 +    -1 x3 +     1 x4 +     1 x5 +     2 x6 +     1 x7 >= 0
+   -1 +     1 x1 +    -1 x2 +    -1 x3 +     2 x4 +     2 x5 +     2 x6 +     2 x7 >= 0
+    0 +     0 x1 +     0 x2 +    -1 x3 +     1 x4 +     1 x5 +     1 x6 +     0 x7 >= 0
+    1 +    -1 x1 +     0 x2 +    -1 x3 +     1 x4 +     1 x5 +     2 x6 +    -1 x7 >= 0
+    1 +    -1 x1 +    -1 x2 +    -1 x3 +     0 x4 +     2 x5 +     2 x6 +     0 x7 >= 0
+    0 +     0 x1 +     0 x2 +    -1 x3 +     0 x4 +     0 x5 +     1 x6 +     1 x7 >= 0
+    1 +     0 x1 +    -1 x2 +    -1 x3 +    -1 x4 +     1 x5 +     2 x6 +     0 x7 >= 0
+    0 +     0 x1 +     0 x2 +     0 x3 +     0 x4 +     1 x5 +     0 x6 +     0 x7 >= 0
+    1 +     1 x1 +    -1 x2 +    -1 x3 +     2 x4 +     2 x5 +    -2 x6 +     0 x7 >= 0
+    1 +     1 x1 +    -1 x2 +    -1 x3 +    -2 x4 +     2 x5 +     2 x6 +     0 x7 >= 0
+   -1 +     1 x1 +     1 x2 +    -1 x3 +     2 x4 +     2 x5 +     0 x6 +     2 x7 >= 0
+   -1 +     1 x1 +     1 x2 +    -1 x3 +     0 x4 +     2 x5 +     2 x6 +     2 x7 >= 0
+,
+# origin ∩ anonymous_convex_polytope_7 ∩ anonymous_convex_polytope_7 ∩ anonymous_convex_polytope_8 ∩ anonymous_convex_polytope_8 ∩ anonymous_convex_polytope_7: 
+    0 +     0 x1 +     1 x2 +    -1 x3 +     0 x4 +     0 x5 +     0 x6 +     0 x7 >= 0
+    1 +    -1 x1 +     0 x2 +    -1 x3 +     1 x4 +    -1 x5 +     2 x6 +     1 x7 >= 0
+    1 +     0 x1 +    -1 x2 +    -1 x3 +     1 x4 +    -1 x5 +     2 x6 +     0 x7 >= 0
+    0 +     1 x1 +    -1 x2 +    -1 x3 +     2 x4 +     0 x5 +     0 x6 +     2 x7 >= 0
+    2 +    -1 x1 +    -1 x2 +    -1 x3 +     2 x4 +    -2 x5 +     2 x6 +     0 x7 >= 0
+    0 +     0 x1 +     0 x2 +    -1 x3 +     0 x4 +     0 x5 +     1 x6 +     1 x7 >= 0
+    0 +     0 x1 +     0 x2 +    -1 x3 +     1 x4 +     1 x5 +     0 x6 +     1 x7 >= 0
+    0 +     1 x1 +    -1 x2 +    -1 x3 +     0 x4 +     2 x5 +     0 x6 +     2 x7 >= 0
+    0 +     0 x1 +    -1 x2 +    -1 x3 +     1 x4 +     1 x5 +     1 x6 +     2 x7 >= 0
+    0 +     1 x1 +     0 x2 +    -1 x3 +     1 x4 +     1 x5 +    -1 x6 +     2 x7 >= 0
+    2 +    -1 x1 +    -1 x2 +    -1 x3 +     2 x4 +     0 x5 +    -2 x6 +     2 x7 >= 0
+    1 +    -1 x1 +    -1 x2 +     0 x3 +     0 x4 +     0 x5 +     0 x6 +     0 x7 >= 0
+    1 +     0 x1 +     0 x2 +    -1 x3 +    -1 x4 +     1 x5 +    -1 x6 +     1 x7 >= 0
+    1 +     0 x1 +    -1 x2 +    -1 x3 +    -1 x4 +     1 x5 +     0 x6 +     2 x7 >= 0
+    1 +    -1 x1 +     0 x2 +    -1 x3 +    -1 x4 +     1 x5 +     1 x6 +     2 x7 >= 0
+    2 +    -1 x1 +    -1 x2 +    -1 x3 +    -2 x4 +     2 x5 +     0 x6 +     2 x7 >= 0
+    0 +     0 x1 +     0 x2 +     0 x3 +     0 x4 +     0 x5 +     0 x6 +     1 x7 >= 0
+    0 +    -1 x1 +     1 x2 +    -1 x3 +     2 x4 +     0 x5 +     2 x6 +     2 x7 >= 0
+    0 +     1 x1 +     0 x2 +    -1 x3 +     1 x4 +    -1 x5 +     2 x6 +     1 x7 >= 0
+    0 +     1 x1 +     1 x2 +    -1 x3 +     2 x4 +    -2 x5 +     2 x6 +     2 x7 >= 0
+    0 +     0 x1 +     1 x2 +     0 x3 +     1 x4 +    -1 x5 +     1 x6 +     1 x7 >= 0
+    0 +    -1 x1 +     0 x2 +     0 x3 +     1 x4 +     1 x5 +     1 x6 +     1 x7 >= 0
+    0 +     0 x1 +     1 x2 +     0 x3 +     1 x4 +     1 x5 +    -1 x6 +     1 x7 >= 0
+    0 +    -1 x1 +     1 x2 +    -1 x3 +     2 x4 +     2 x5 +     0 x6 +     2 x7 >= 0
+    0 +     1 x1 +    -1 x2 +    -1 x3 +     2 x4 +     2 x5 +     0 x6 +     0 x7 >= 0
+    0 +     0 x1 +     0 x2 +     0 x3 +     1 x4 +     0 x5 +     0 x6 +     0 x7 >= 0
+    2 +    -1 x1 +    -1 x2 +    -1 x3 +     2 x4 +     2 x5 +     0 x6 +    -2 x7 >= 0
+    1 +    -1 x1 +     0 x2 +    -1 x3 +     1 x4 +     1 x5 +     1 x6 +    -1 x7 >= 0
+    0 +    -1 x1 +     1 x2 +    -1 x3 +     2 x4 +     2 x5 +     2 x6 +     0 x7 >= 0
+    0 +     0 x1 +     0 x2 +    -1 x3 +     1 x4 +     1 x5 +     1 x6 +     0 x7 >= 0
+    0 +     1 x1 +    -1 x2 +    -1 x3 +     2 x4 +     0 x5 +     2 x6 +     0 x7 >= 0
+    2 +    -1 x1 +    -1 x2 +    -1 x3 +     2 x4 +     0 x5 +     2 x6 +    -2 x7 >= 0
+    0 +    -1 x1 +    -1 x2 +    -1 x3 +     2 x4 +     2 x5 +     2 x6 +     2 x7 >= 0
+    0 +     0 x1 +    -1 x2 +    -1 x3 +     1 x4 +     1 x5 +     2 x6 +     1 x7 >= 0
+    1 +     0 x1 +     0 x2 +    -1 x3 +     1 x4 +    -1 x5 +     1 x6 +    -1 x7 >= 0
+    1 +     0 x1 +     0 x2 +    -1 x3 +     1 x4 +    -1 x5 +    -1 x6 +     1 x7 >= 0
+    1 +    -1 x1 +     0 x2 +    -1 x3 +     1 x4 +    -1 x5 +     1 x6 +     2 x7 >= 0
+    2 +    -1 x1 +    -1 x2 +    -1 x3 +     2 x4 +    -2 x5 +     0 x6 +     2 x7 >= 0
+    1 +     0 x1 +     0 x2 +     0 x3 +     0 x4 +    -2 x5 +     0 x6 +     0 x7 >= 0
+    2 +    -1 x1 +    -1 x2 +    -1 x3 +     2 x4 +     2 x5 +    -2 x6 +     0 x7 >= 0
+    0 +     0 x1 +     0 x2 +     0 x3 +     0 x4 +     1 x5 +     0 x6 +     0 x7 >= 0
+    0 +     1 x1 +     1 x2 +    -1 x3 +     2 x4 +     2 x5 +    -2 x6 +     2 x7 >= 0
+    0 +    -1 x1 +     1 x2 +    -1 x3 +     0 x4 +     2 x5 +     2 x6 +     2 x7 >= 0
+    1 +     0 x1 +     0 x2 +     0 x3 +    -2 x4 +     0 x5 +     0 x6 +     0 x7 >= 0
+    0 +     1 x1 +     0 x2 +    -1 x3 +     1 x4 +    -1 x5 +     1 x6 +     2 x7 >= 0
+    1 +     0 x1 +    -1 x2 +    -1 x3 +     1 x4 +    -1 x5 +     0 x6 +     2 x7 >= 0
+    0 +     1 x1 +     0 x2 +    -1 x3 +    -1 x4 +     1 x5 +     1 x6 +     2 x7 >= 0
+    0 +     0 x1 +     1 x2 +     0 x3 +    -1 x4 +     1 x5 +     1 x6 +     1 x7 >= 0
+    0 +     1 x1 +     1 x2 +    -1 x3 +    -2 x4 +     2 x5 +     2 x6 +     2 x7 >= 0
+    1 +     0 x1 +     0 x2 +     0 x3 +     0 x4 +     0 x5 +     0 x6 +    -2 x7 >= 0
+    1 +     0 x1 +    -1 x2 +    -1 x3 +    -1 x4 +     1 x5 +     2 x6 +     0 x7 >= 0
+    1 +    -1 x1 +     0 x2 +    -1 x3 +    -1 x4 +     1 x5 +     2 x6 +     1 x7 >= 0
+    2 +    -1 x1 +    -1 x2 +    -1 x3 +    -2 x4 +     2 x5 +     2 x6 +     0 x7 >= 0
+    0 +     1 x1 +     1 x2 +    -1 x3 +     2 x4 +     2 x5 +     2 x6 +    -2 x7 >= 0
+    1 +     0 x1 +     0 x2 +    -1 x3 +    -1 x4 +     1 x5 +     1 x6 +    -1 x7 >= 0
+    2 +    -1 x1 +    -1 x2 +    -1 x3 +     0 x4 +     2 x5 +     2 x6 +    -2 x7 >= 0
+    0 +     1 x1 +     0 x2 +    -1 x3 +     1 x4 +     1 x5 +     2 x6 +    -1 x7 >= 0
+    0 +     1 x1 +    -1 x2 +    -1 x3 +     0 x4 +     2 x5 +     2 x6 +     0 x7 >= 0
+    0 +     1 x1 +     0 x2 +    -1 x3 +    -1 x4 +     1 x5 +     2 x6 +     1 x7 >= 0
+    0 +     1 x1 +    -1 x2 +     0 x3 +     0 x4 +     0 x5 +     0 x6 +     0 x7 >= 0
+    0 +     0 x1 +     0 x2 +     0 x3 +     0 x4 +     0 x5 +     1 x6 +     0 x7 >= 0
+    0 +     0 x1 +     1 x2 +     0 x3 +     1 x4 +     1 x5 +     1 x6 +    -1 x7 >= 0
+    0 +     0 x1 +     0 x2 +     1 x3 +     0 x4 +     0 x5 +     0 x6 +     0 x7 >= 0
+    2 +    -1 x1 +    -1 x2 +    -1 x3 +     0 x4 +     2 x5 +    -2 x6 +     2 x7 >= 0
+    1 +     0 x1 +     0 x2 +     0 x3 +     0 x4 +     0 x5 +    -2 x6 +     0 x7 >= 0
+    1 +     0 x1 +     0 x2 +    -1 x3 +     1 x4 +     1 x5 +    -1 x6 +    -1 x7 >= 0
+,
+# origin ∩ anonymous_convex_polytope_7 ∩ anonymous_convex_polytope_7 ∩ anonymous_convex_polytope_7 ∩ anonymous_convex_polytope_7 ∩ anonymous_convex_polytope_8: 
+    0 +     0 x1 +     1 x2 +    -1 x3 +     0 x4 +     0 x5 +     0 x6 +     0 x7 >= 0
+    0 +     0 x1 +     1 x2 +     0 x3 +     1 x4 +     1 x5 +     1 x6 +    -1 x7 >= 0
+   -1 +     1 x1 +     1 x2 +    -1 x3 +     2 x4 +     2 x5 +     0 x6 +     2 x7 >= 0
+    1 +     1 x1 +    -1 x2 +    -1 x3 +     2 x4 +     2 x5 +    -2 x6 +     0 x7 >= 0
+    0 +     1 x1 +     0 x2 +    -1 x3 +     1 x4 +     1 x5 +    -1 x6 +     1 x7 >= 0
+    0 +     0 x1 +     1 x2 +     0 x3 +     1 x4 +     1 x5 +    -1 x6 +     1 x7 >= 0
+    0 +     0 x1 +     0 x2 +     0 x3 +     0 x4 +     0 x5 +     1 x6 +     0 x7 >= 0
+    1 +     0 x1 +     0 x2 +    -1 x3 +     1 x4 +    -1 x5 +     1 x6 +    -1 x7 >= 0
+    0 +     0 x1 +     0 x2 +     0 x3 +     1 x4 +     0 x5 +     0 x6 +     0 x7 >= 0
+    1 +    -1 x1 +    -1 x2 +    -1 x3 +     2 x4 +     0 x5 +     2 x6 +     0 x7 >= 0
+    0 +     0 x1 +     0 x2 +    -1 x3 +     1 x4 +     1 x5 +     1 x6 +     0 x7 >= 0
+   -1 +     1 x1 +     1 x2 +    -1 x3 +     2 x4 +     2 x5 +     2 x6 +     0 x7 >= 0
+    0 +     0 x1 +     0 x2 +     0 x3 +     0 x4 +     1 x5 +     0 x6 +     0 x7 >= 0
+    1 +     1 x1 +    -1 x2 +    -1 x3 +     2 x4 +     2 x5 +     0 x6 +    -2 x7 >= 0
+    1 +    -1 x1 +    -1 x2 +    -1 x3 +     2 x4 +     2 x5 +     0 x6 +     0 x7 >= 0
+    1 +     0 x1 +     0 x2 +    -1 x3 +     1 x4 +     1 x5 +    -1 x6 +    -1 x7 >= 0
+    1 +     1 x1 +    -1 x2 +    -1 x3 +     2 x4 +     0 x5 +     2 x6 +    -2 x7 >= 0
+    1 +     0 x1 +     0 x2 +     0 x3 +     0 x4 +     0 x5 +     0 x6 +    -2 x7 >= 0
+    1 +    -1 x1 +     0 x2 +    -1 x3 +     1 x4 +     1 x5 +     1 x6 +    -1 x7 >= 0
+    1 +     1 x1 +    -1 x2 +    -1 x3 +     0 x4 +     2 x5 +     2 x6 +    -2 x7 >= 0
+    1 +     0 x1 +     0 x2 +     0 x3 +     0 x4 +     0 x5 +    -2 x6 +     0 x7 >= 0
+    1 +     0 x1 +     0 x2 +     0 x3 +    -2 x4 +     0 x5 +     0 x6 +     0 x7 >= 0
+    1 +    -1 x1 +     0 x2 +    -1 x3 +     1 x4 +     1 x5 +    -1 x6 +     1 x7 >= 0
+    0 +     0 x1 +    -1 x2 +    -1 x3 +     1 x4 +     1 x5 +     1 x6 +     1 x7 >= 0
+   -1 +     1 x1 +     0 x2 +     0 x3 +     1 x4 +     1 x5 +     1 x6 +     1 x7 >= 0
+    1 +     0 x1 +    -1 x2 +    -1 x3 +     1 x4 +     1 x5 +    -1 x6 +     0 x7 >= 0
+    1 +     0 x1 +    -1 x2 +    -1 x3 +     1 x4 +    -1 x5 +     1 x6 +     0 x7 >= 0
+    1 +    -1 x1 +     0 x2 +    -1 x3 +     1 x4 +    -1 x5 +     1 x6 +     1 x7 >= 0
+    0 +     0 x1 +     1 x2 +     0 x3 +     1 x4 +    -1 x5 +     1 x6 +     1 x7 >= 0
+    1 +     1 x1 +    -1 x2 +    -1 x3 +    -2 x4 +     2 x5 +     2 x6 +     0 x7 >= 0
+    0 +     1 x1 +     0 x2 +    -1 x3 +    -1 x4 +     1 x5 +     1 x6 +     1 x7 >= 0
+    1 +    -1 x1 +    -1 x2 +     0 x3 +     0 x4 +     0 x5 +     0 x6 +     0 x7 >= 0
+    1 +    -1 x1 +    -1 x2 +    -1 x3 +     0 x4 +     2 x5 +     2 x6 +     0 x7 >= 0
+    1 +     0 x1 +    -1 x2 +    -1 x3 +    -1 x4 +     1 x5 +     1 x6 +     0 x7 >= 0
+    1 +    -1 x1 +     0 x2 +    -1 x3 +    -1 x4 +     1 x5 +     1 x6 +     1 x7 >= 0
+   -1 +     1 x1 +     1 x2 +    -1 x3 +     0 x4 +     2 x5 +     2 x6 +     2 x7 >= 0
+    0 +     0 x1 +     1 x2 +     0 x3 +    -1 x4 +     1 x5 +     1 x6 +     1 x7 >= 0
+    1 +     0 x1 +     0 x2 +    -1 x3 +    -1 x4 +     1 x5 +     1 x6 +    -1 x7 >= 0
+    0 +     0 x1 +     0 x2 +     1 x3 +     0 x4 +     0 x5 +     0 x6 +     0 x7 >= 0
+    1 +     0 x1 +     0 x2 +     0 x3 +     0 x4 +    -2 x5 +     0 x6 +     0 x7 >= 0
+    1 +     1 x1 +    -1 x2 +    -1 x3 +     2 x4 +    -2 x5 +     2 x6 +     0 x7 >= 0
+    0 +     1 x1 +     0 x2 +    -1 x3 +     1 x4 +    -1 x5 +     1 x6 +     1 x7 >= 0
+    0 +     1 x1 +    -1 x2 +     0 x3 +     0 x4 +     0 x5 +     0 x6 +     0 x7 >= 0
+    0 +     0 x1 +     0 x2 +    -1 x3 +     0 x4 +     0 x5 +     0 x6 +     1 x7 >= 0
+   -1 +     1 x1 +     1 x2 +    -1 x3 +     2 x4 +     0 x5 +     2 x6 +     2 x7 >= 0
+,
+# origin ∩ anonymous_convex_polytope_7 ∩ anonymous_convex_polytope_7 ∩ anonymous_convex_polytope_8 ∩ anonymous_convex_polytope_7 ∩ anonymous_convex_polytope_8: 
+    0 +     1 x1 +    -1 x2 +     0 x3 +     0 x4 +     0 x5 +     0 x6 +     0 x7 >= 0
+    1 +    -1 x1 +    -1 x2 +     0 x3 +     0 x4 +     0 x5 +     0 x6 +     0 x7 >= 0
+    1 +     0 x1 +     0 x2 +     0 x3 +     0 x4 +    -2 x5 +     0 x6 +     0 x7 >= 0
+    0 +     0 x1 +     0 x2 +     1 x3 +     0 x4 +     0 x5 +     0 x6 +     0 x7 >= 0
+    0 +     0 x1 +     0 x2 +    -1 x3 +     0 x4 +     0 x5 +     0 x6 +     1 x7 >= 0
+    1 +     0 x1 +     0 x2 +     0 x3 +    -2 x4 +     0 x5 +     0 x6 +     0 x7 >= 0
+    0 +     0 x1 +     0 x2 +     0 x3 +     0 x4 +     0 x5 +     1 x6 +     0 x7 >= 0
+    1 +     0 x1 +     0 x2 +     0 x3 +     0 x4 +     0 x5 +    -2 x6 +     0 x7 >= 0
+    1 +     0 x1 +    -1 x2 +    -1 x3 +    -1 x4 +     1 x5 +     1 x6 +     0 x7 >= 0
+    1 +     0 x1 +     0 x2 +    -1 x3 +    -1 x4 +     1 x5 +     1 x6 +    -1 x7 >= 0
+    2 +    -1 x1 +    -1 x2 +    -1 x3 +    -2 x4 +     2 x5 +     2 x6 +     0 x7 >= 0
+    1 +    -1 x1 +     0 x2 +    -1 x3 +    -1 x4 +     1 x5 +     1 x6 +     1 x7 >= 0
+    0 +    -1 x1 +     1 x2 +    -1 x3 +     0 x4 +     2 x5 +     2 x6 +     2 x7 >= 0
+    0 +     0 x1 +     1 x2 +    -1 x3 +     0 x4 +     0 x5 +     0 x6 +     0 x7 >= 0
+    0 +     0 x1 +     0 x2 +     0 x3 +     0 x4 +     1 x5 +     0 x6 +     0 x7 >= 0
+    1 +     0 x1 +     0 x2 +    -1 x3 +     1 x4 +    -1 x5 +     1 x6 +    -1 x7 >= 0
+    0 +     1 x1 +     0 x2 +    -1 x3 +     1 x4 +     1 x5 +     1 x6 +    -1 x7 >= 0
+    1 +     0 x1 +     0 x2 +    -1 x3 +     1 x4 +     1 x5 +    -1 x6 +    -1 x7 >= 0
+    2 +    -1 x1 +    -1 x2 +    -1 x3 +     2 x4 +     2 x5 +    -2 x6 +     0 x7 >= 0
+    1 +    -1 x1 +     0 x2 +    -1 x3 +     1 x4 +     1 x5 +    -1 x6 +     1 x7 >= 0
+    0 +    -1 x1 +     1 x2 +    -1 x3 +     2 x4 +     2 x5 +     0 x6 +     2 x7 >= 0
+    0 +     0 x1 +     1 x2 +     0 x3 +     1 x4 +     1 x5 +    -1 x6 +     1 x7 >= 0
+    1 +     0 x1 +    -1 x2 +    -1 x3 +     1 x4 +     1 x5 +    -1 x6 +     0 x7 >= 0
+    0 +     1 x1 +    -1 x2 +    -1 x3 +     2 x4 +     0 x5 +     2 x6 +     0 x7 >= 0
+    2 +    -1 x1 +    -1 x2 +    -1 x3 +     2 x4 +     0 x5 +     2 x6 +    -2 x7 >= 0
+    0 +     0 x1 +     0 x2 +    -1 x3 +     1 x4 +     1 x5 +     1 x6 +     0 x7 >= 0
+    0 +     0 x1 +    -1 x2 +    -1 x3 +     1 x4 +     1 x5 +     1 x6 +     1 x7 >= 0
+    0 +     1 x1 +    -1 x2 +    -1 x3 +     2 x4 +     2 x5 +     0 x6 +     0 x7 >= 0
+    2 +    -1 x1 +    -1 x2 +    -1 x3 +     2 x4 +     2 x5 +     0 x6 +    -2 x7 >= 0
+    0 +     1 x1 +     0 x2 +    -1 x3 +     1 x4 +     1 x5 +    -1 x6 +     1 x7 >= 0
+    0 +     0 x1 +     1 x2 +     0 x3 +    -1 x4 +     1 x5 +     1 x6 +     1 x7 >= 0
+    0 +     1 x1 +     0 x2 +    -1 x3 +    -1 x4 +     1 x5 +     1 x6 +     1 x7 >= 0
+    2 +    -1 x1 +    -1 x2 +    -1 x3 +     0 x4 +     2 x5 +     2 x6 +    -2 x7 >= 0
+    0 +     1 x1 +    -1 x2 +    -1 x3 +     0 x4 +     2 x5 +     2 x6 +     0 x7 >= 0
+    0 +     0 x1 +     1 x2 +     0 x3 +     1 x4 +     1 x5 +     1 x6 +    -1 x7 >= 0
+    0 +     0 x1 +     1 x2 +     0 x3 +     1 x4 +    -1 x5 +     1 x6 +     1 x7 >= 0
+    0 +    -1 x1 +     1 x2 +    -1 x3 +     2 x4 +     0 x5 +     2 x6 +     2 x7 >= 0
+    0 +    -1 x1 +     0 x2 +     0 x3 +     1 x4 +     1 x5 +     1 x6 +     1 x7 >= 0
+    0 +    -1 x1 +     1 x2 +    -1 x3 +     2 x4 +     2 x5 +     2 x6 +     0 x7 >= 0
+    1 +     0 x1 +     0 x2 +     0 x3 +     0 x4 +     0 x5 +     0 x6 +    -2 x7 >= 0
+    0 +     1 x1 +     0 x2 +    -1 x3 +     1 x4 +    -1 x5 +     1 x6 +     1 x7 >= 0
+    0 +     0 x1 +     0 x2 +     0 x3 +     1 x4 +     0 x5 +     0 x6 +     0 x7 >= 0
+    1 +    -1 x1 +     0 x2 +    -1 x3 +     1 x4 +    -1 x5 +     1 x6 +     1 x7 >= 0
+    1 +     0 x1 +    -1 x2 +    -1 x3 +     1 x4 +    -1 x5 +     1 x6 +     0 x7 >= 0
+    2 +    -1 x1 +    -1 x2 +    -1 x3 +     2 x4 +    -2 x5 +     2 x6 +     0 x7 >= 0
+
+]
+
+ ---------------------------------------------------------------------
+[Polytope(convex_subpolytopes=[ConvexPolytope(inequalities=[[1, 0, 0, 0]], equalities=[[0, 1, 0, 0], [0, 0, 1, 0], [0, 0, 0, 1]], name='origin ∩ anonymous_convex_polytope_7'), ConvexPolytope(inequalities=[[1, 0, 0, 0]], equalities=[[-1, 1, 0, 0], [0, 0, 1, 0], [0, 0, 0, 1]], name='origin ∩ anonymous_convex_polytope_8')]), Polytope(convex_subpolytopes=[ConvexPolytope(inequalities=[[1, -2, 0, 0, 0], [0, 1, 0, 0, 0]], equalities=[[0, -1, 1, 0, 0], [0, 0, 0, 1, 0], [0, -1, 0, 0, 1]], name='origin ∩ anonymous_convex_polytope_7 ∩ anonymous_convex_polytope_7'), ConvexPolytope(inequalities=[[1, -1, 0, 0, 0], [-1, 2, 0, 0, 0]], equalities=[[-1, 1, 1, 0, 0], [0, 0, 0, 1, 0], [-1, 1, 0, 0, 1]], name='origin ∩ anonymous_convex_polytope_7 ∩ anonymous_convex_polytope_8')]), Polytope(convex_subpolytopes=[ConvexPolytope(inequalities=[[0, 1, -1, -1, 0, 0], [1, 0, 0, 0, -2, 0], [1, 0, 0, -1, -1, -1], [2, -1, -1, -1, -2, 0], [0, 0, 1, 0, -1, 1], [0, 0, 1, -1, 0, 0], [0, -1, 1, -1, 0, 2], [0, 0, 0, 1, 0, 0], [1, 0, 0, 0, 0, -2], [1, -1, -1, 0, 0, 0], [2, -1, -1, -1, 0, -2], [0, 0, 1, 0, 1, -1], [0, -1, 0, 0, 1, 1], [0, -1, 1, -1, 2, 0]], equalities=[], name='origin ∩ anonymous_convex_polytope_7 ∩ anonymous_convex_polytope_7 ∩ anonymous_convex_polytope_7'), ConvexPolytope(inequalities=[[0, 0, 1, 0, 1, -1], [0, 0, 1, -1, 0, 0], [1, -1, -1, -1, 0, 0], [1, 0, 0, 0, 0, -2], [1, 0, 0, -1, -1, -1], [1, 1, -1, -1, 0, -2], [0, 0, 0, 1, 0, 0], [0, 0, 1, 0, -1, 1], [1, 0, 0, 0, -2, 0], [0, 1, -1, 0, 0, 0], [1, 1, -1, -1, -2, 0], [-1, 1, 0, 0, 1, 1], [-1, 1, 1, -1, 0, 2], [-1, 1, 1, -1, 2, 0]], equalities=[], name='origin ∩ anonymous_convex_polytope_7 ∩ anonymous_convex_polytope_7 ∩ anonymous_convex_polytope_8')]), Polytope(convex_subpolytopes=[ConvexPolytope(inequalities=[[1, 0, 0, 0, -2, 0, 0], [0, 0, 0, -1, 0, 1, 1], [0, -1, 1, -1, 0, 2, 2], [1, 0, 0, -1, -1, -1, 1], [0, 0, 1, 0, 1, -1, 1], [0, 1, 1, -1, 2, -2, 2], [1, 0, 0, 0, 0, -2, 0], [2, -1, -1, -1, -2, 0, 2], [0, 1, -1, -1, 0, 0, 2], [0, -1, -1, -1, 2, 2, 2], [0, -1, 0, 0, 1, 1, 1], [0, -1, 1, -1, 2, 0, 2], [0, 0, 0, -1, 1, 0, 1], [1, -1, 0, -1, 1, 1, -1], [2, -1, -1, -1, 0, 2, -2], [1, 0, 0, 0, 0, 0, -2], [0, 0, 0, 0, 1, 0, 0], [0, -1, 1, -1, 2, 2, 0], [0, 0, 0, -1, 1, 1, 0], [2, -1, -1, -1, 2, -2, 0], [1, 0, 0, -1, 1, -1, -1], [2, -1, -1, -1, 2, 0, -2], [0, 1, -1, -1, 2, 0, 0], [0, 1, -1, 0, 0, 0, 0], [2, -1, -1, -1, 0, -2, 2], [0, 0, 1, -1, 0, 0, 0], [2, -1, -1, -1, -2, 2, 0], [1, 0, 0, -1, -1, 1, -1], [1, -1, -1, 0, 0, 0, 0], [0, 1, -1, -1, 0, 2, 0], [0, 1, 1, -1, -2, 2, 2], [0, 0, 1, 0, -1, 1, 1], [0, 0, 0, 0, 0, 1, 0], [0, 0, 1, 0, 1, 1, -1], [0, 1, 1, -1, 2, 2, -2], [0, 0, 0, 0, 0, 0, 1], [0, 0, 0, 1, 0, 0, 0]], equalities=[], name='origin ∩ anonymous_convex_polytope_7 ∩ anonymous_convex_polytope_7 ∩ anonymous_convex_polytope_7 ∩ anonymous_convex_polytope_7'), ConvexPolytope(inequalities=[[0, 0, 1, -1, 0, 0, 0], [1, 0, 0, 0, -2, 0, 0], [1, 1, -1, -1, -2, 2, 0], [0, 0, 0, 0, 0, 1, 0], [0, 0, 0, 1, 0, 0, 0], [1, 0, 0, 0, 0, -2, 0], [0, 0, 1, 0, 1, 1, -1], [1, 0, 0, -1, -1, -1, 1], [0, 1, -1, 0, 0, 0, 0], [1, 1, -1, -1, -2, 0, 2], [1, -1, 1, -1, -2, 2, 2], [1, 1, -1, -1, 0, -2, 2], [0, 0, 0, 0, 0, 0, 1], [-1, 1, 1, -1, 0, 2, 2], [0, 0, 1, 0, -1, 1, 1], [1, -1, 1, -1, 2, 2, -2], [-1, 1, 1, -1, 2, 0, 2], [0, 0, 1, 0, 1, -1, 1], [-1, 1, 0, 0, 1, 1, 1], [0, 0, 0, 0, 1, 0, 0], [1, 0, 0, 0, 0, 0, -2], [1, 1, -1, -1, 2, -2, 0], [1, 0, 0, -1, 1, -1, -1], [1, 1, -1, -1, 2, 0, -2], [1, 0, 0, -1, -1, 1, -1], [1, 1, -1, -1, 0, 2, -2], [1, -1, -1, -1, 0, 2, 0], [0, 0, 0, -1, 1, 1, 0], [0, 1, 0, -1, 1, 1, -1], [1, -1, -1, 0, 0, 0, 0], [1, -1, -1, -1, 2, 0, 0], [-1, 1, 1, -1, 2, 2, 0], [0, 0, 0, -1, 0, 1, 1], [1, -1, -1, -1, 0, 0, 2], [0, 0, 0, -1, 1, 0, 1], [1, -1, 1, -1, 2, -2, 2], [-1, 1, -1, -1, 2, 2, 2]], equalities=[], name='origin ∩ anonymous_convex_polytope_7 ∩ anonymous_convex_polytope_7 ∩ anonymous_convex_polytope_8 ∩ anonymous_convex_polytope_7'), ConvexPolytope(inequalities=[[0, 0, 1, -1, 0, 0, 0], [1, 0, -1, -1, 1, -1, 0], [1, 0, 0, -1, 1, -1, -1], [1, -1, -1, -1, 2, 0, 0], [0, 0, 0, -1, 0, 0, 1], [-1, 1, 0, 0, 1, 1, 1], [-1, 1, 1, -1, 2, 0, 2], [1, 0, 0, 0, 0, -2, 0], [1, -1, 0, -1, 1, -1, 1], [0, 0, 0, 1, 0, 0, 0], [0, 0, 1, 0, 1, -1, 1], [0, 1, 0, -1, -1, 1, 1], [-1, 1, 1, -1, 0, 2, 2], [0, 0, 1, 0, -1, 1, 1], [1, 1, -1, -1, -2, 2, 0], [0, 0, 0, 0, 0, 1, 0], [1, 1, -1, -1, 2, -2, 0], [0, 1, 0, -1, 1, -1, 1], [0, 0, 0, 0, 1, 0, 0], [0, 0, 1, 0, 1, 1, -1], [0, 1, -1, 0, 0, 0, 0], [1, 1, -1, -1, 2, 0, -2], [0, 0, -1, -1, 1, 1, 1], [-1, 1, 1, -1, 2, 2, 0], [0, 0, 0, -1, 1, 1, 0], [1, 0, 0, 0, 0, 0, -2], [1, -1, -1, -1, 0, 2, 0], [1, 0, -1, -1, -1, 1, 0], [1, -1, 0, -1, -1, 1, 1], [1, -1, -1, 0, 0, 0, 0], [1, -1, 0, -1, 1, 1, -1], [1, 0, 0, 0, -2, 0, 0], [1, 0, 0, -1, -1, 1, -1], [1, 1, -1, -1, 0, 2, -2]], equalities=[], name='origin ∩ anonymous_convex_polytope_7 ∩ anonymous_convex_polytope_7 ∩ anonymous_convex_polytope_7 ∩ anonymous_convex_polytope_8'), ConvexPolytope(inequalities=[[1, 0, 0, 0, 0, -2, 0], [0, 0, 0, 1, 0, 0, 0], [1, -1, -1, 0, 0, 0, 0], [1, -1, 0, -1, 1, -1, 1], [0, 0, 0, -1, 0, 0, 1], [0, 1, 0, -1, 1, -1, 1], [0, 1, 0, -1, -1, 1, 1], [0, 0, 1, 0, -1, 1, 1], [1, 0, 0, 0, -2, 0, 0], [1, -1, 0, -1, -1, 1, 1], [2, -1, -1, -1, -2, 2, 0], [1, 0, -1, -1, -1, 1, 0], [0, 0, 1, -1, 0, 0, 0], [0, -1, 1, -1, 0, 2, 2], [0, -1, 1, -1, 2, 2, 0], [0, 0, 0, 0, 0, 1, 0], [2, -1, -1, -1, 0, 2, -2], [1, 0, 0, -1, -1, 1, -1], [0, 1, -1, -1, 0, 2, 0], [0, 0, 0, -1, 1, 1, 0], [0, 0, 1, 0, 1, -1, 1], [0, -1, 1, -1, 2, 0, 2], [0, -1, 0, 0, 1, 1, 1], [0, 1, -1, 0, 0, 0, 0], [0, 0, -1, -1, 1, 1, 1], [2, -1, -1, -1, 2, 0, -2], [1, 0, 0, 0, 0, 0, -2], [0, 1, 0, -1, 1, 1, -1], [0, 0, 1, 0, 1, 1, -1], [0, 0, 0, 0, 1, 0, 0], [2, -1, -1, -1, 2, -2, 0], [1, 0, -1, -1, 1, -1, 0], [0, 1, -1, -1, 2, 0, 0], [1, 0, 0, -1, 1, -1, -1]], equalities=[], name='origin ∩ anonymous_convex_polytope_7 ∩ anonymous_convex_polytope_7 ∩ anonymous_convex_polytope_8 ∩ anonymous_convex_polytope_8')]), Polytope(convex_subpolytopes=[ConvexPolytope(inequalities=[[0, 0, 1, -1, 0, 0, 0, 0], [1, 0, 0, 0, -2, 0, 0, 0], [0, 1, -1, 0, 0, 0, 0, 0], [1, 0, 0, 0, 0, 0, -2, 0], [0, 0, 0, 1, 0, 0, 0, 0], [1, 0, 0, 0, 0, 0, 0, -2], [1, 0, 0, -1, 1, 1, -1, -1], [0, 0, 0, 0, 0, 1, 0, 0], [2, -1, -1, -1, 2, 2, -2, 0], [0, 1, -1, -1, 0, 2, 2, 0], [0, 0, 0, -1, 1, 1, 1, 0], [0, 1, 1, -1, 2, 2, 2, -2], [0, 0, 1, 0, 1, 1, 1, -1], [0, 1, -1, -1, 2, 2, 0, 0], [2, -1, -1, -1, 2, 2, 0, -2], [2, -1, -1, -1, 0, 2, -2, 2], [1, -1, 0, -1, 1, 1, -1, 2], [0, 1, -1, -1, 0, 2, 0, 2], [2, -1, -1, -1, -2, 2, 0, 2], [0, 0, 1, 0, 1, 1, -1, 1], [0, 1, 1, -1, 2, 2, -2, 2], [0, 0, 1, 0, -1, 1, 1, 1], [0, 1, -1, -1, 2, 0, 2, 0], [2, -1, -1, -1, -2, 2, 2, 0], [1, 0, 0, -1, -1, 1, 1, -1], [2, -1, -1, -1, 0, -2, 2, 2], [2, -1, -1, -1, -2, 0, 2, 2], [2, -1, -1, -1, 0, 2, 2, -2], [0, 1, 1, -1, -2, 2, 2, 2], [2, -1, -1, -1, 2, -2, 2, 0], [2, -1, -1, -1, 2, 0, 2, -2], [1, -1, -1, 0, 0, 0, 0, 0], [1, -1, 0, -1, 1, 1, 1, -1], [0, 1, -1, -1, 0, 0, 2, 2], [0, 0, 0, -1, 1, 0, 1, 1], [1, 0, 0, -1, 1, -1, 1, -1], [2, -1, -1, -1, 2, 0, -2, 2], [0, 1, -1, -1, 2, 0, 0, 2], [0, 0, 0, -1, 1, 1, 0, 1], [0, -1, 0, 0, 1, 1, 1, 1], [0, -1, 1, -1, 2, 0, 2, 2], [0, -1, 1, -1, 0, 2, 2, 2], [0, -1, 1, -1, 2, 2, 2, 0], [0, -1, -1, -1, 2, 2, 2, 2], [0, 0, 0, -1, 0, 1, 1, 1], [0, -1, 1, -1, 2, 2, 0, 2], [0, 0, 0, 0, 1, 0, 0, 0], [0, 0, 1, 0, 1, -1, 1, 1], [0, 1, 1, -1, 2, -2, 2, 2], [0, 0, 0, 0, 0, 0, 1, 0], [1, 0, 0, -1, -1, 1, -1, 1], [1, 0, 0, 0, 0, -2, 0, 0], [1, 0, 0, -1, -1, -1, 1, 1], [1, 0, 0, -1, 1, -1, -1, 1], [2, -1, -1, -1, 2, -2, 0, 2], [0, 0, 0, 0, 0, 0, 0, 1]], equalities=[], name='origin ∩ anonymous_convex_polytope_7 ∩ anonymous_convex_polytope_7 ∩ anonymous_convex_polytope_7 ∩ anonymous_convex_polytope_7 ∩ anonymous_convex_polytope_7'), ConvexPolytope(inequalities=[[0, 0, 1, -1, 0, 0, 0, 0], [1, -1, -1, 0, 0, 0, 0, 0], [1, -1, 1, -1, -2, 2, 2, 2], [1, 0, 0, -1, -1, -1, 1, 1], [1, 1, -1, -1, -2, 0, 2, 2], [1, 0, 0, 0, 0, 0, 0, -2], [1, 1, -1, -1, -2, 2, 2, 0], [1, -1, 1, -1, 2, 2, 2, -2], [1, 0, 0, 0, -2, 0, 0, 0], [1, -1, 1, -1, 2, -2, 2, 2], [1, 1, -1, -1, 0, -2, 2, 2], [1, -1, -1, -1, 0, 0, 2, 2], [0, 0, 1, 0, 1, -1, 1, 1], [1, -1, -1, -1, 2, 0, 2, 0], [0, 0, 0, -1, 1, 1, 1, 0], [1, -1, -1, -1, 0, 2, 2, 0], [1, -1, -1, -1, 2, 0, 0, 2], [1, -1, -1, -1, 2, 2, 0, 0], [0, 0, 0, 0, 0, 0, 1, 0], [0, 0, 0, 0, 1, 0, 0, 0], [1, 0, 0, -1, -1, 1, -1, 1], [1, -1, -1, -1, 0, 2, 0, 2], [1, 1, -1, -1, 0, 2, -2, 2], [1, 0, 0, 0, 0, 0, -2, 0], [0, 1, 0, -1, 1, 1, -1, 2], [1, 1, -1, -1, 2, 0, -2, 2], [-1, 1, 1, -1, 2, 2, 0, 2], [0, 1, -1, 0, 0, 0, 0, 0], [1, 1, -1, -1, 2, -2, 0, 2], [1, 0, 0, -1, 1, -1, -1, 1], [0, 0, 0, -1, 0, 1, 1, 1], [0, 0, 0, 0, 0, 0, 0, 1], [-1, 1, -1, -1, 2, 2, 2, 2], [1, 1, -1, -1, 2, 0, 2, -2], [0, 1, 0, -1, 1, 1, 1, -1], [1, 1, -1, -1, 2, 2, 0, -2], [1, 0, 0, -1, -1, 1, 1, -1], [1, 1, -1, -1, 0, 2, 2, -2], [0, 0, 1, 0, 1, 1, 1, -1], [0, 0, 0, 1, 0, 0, 0, 0], [0, 0, 1, 0, 1, 1, -1, 1], [-1, 1, 1, -1, 2, 2, 2, 0], [0, 0, 0, 0, 0, 1, 0, 0], [1, 0, 0, -1, 1, 1, -1, -1], [1, 1, -1, -1, -2, 2, 0, 2], [0, 0, 1, 0, -1, 1, 1, 1], [-1, 1, 0, 0, 1, 1, 1, 1], [-1, 1, 1, -1, 0, 2, 2, 2], [1, 1, -1, -1, 2, 2, -2, 0], [1, -1, 1, -1, 2, 2, -2, 2], [0, 0, 0, -1, 1, 1, 0, 1], [1, 1, -1, -1, 2, -2, 2, 0], [0, 0, 0, -1, 1, 0, 1, 1], [1, 0, 0, 0, 0, -2, 0, 0], [1, 0, 0, -1, 1, -1, 1, -1], [-1, 1, 1, -1, 2, 0, 2, 2]], equalities=[], name='origin ∩ anonymous_convex_polytope_7 ∩ anonymous_convex_polytope_7 ∩ anonymous_convex_polytope_8 ∩ anonymous_convex_polytope_7 ∩ anonymous_convex_polytope_7'), ConvexPolytope(inequalities=[[0, 0, 1, -1, 0, 0, 0, 0], [1, 0, 0, 0, 0, 0, -2, 0], [0, 1, -1, 0, 0, 0, 0, 0], [1, 0, 0, 0, 0, 0, 0, -2], [0, 0, 0, 0, 1, 0, 0, 0], [1, 0, 0, -1, 1, -1, 1, -1], [1, 0, -1, -1, 1, -1, 2, 0], [1, 1, -1, -1, 2, -2, 2, 0], [0, 1, 0, -1, 1, -1, 2, 1], [1, 0, 0, 0, 0, -2, 0, 0], [0, 1, 0, -1, 1, -1, 1, 2], [1, 1, -1, -1, 2, -2, 0, 2], [1, 0, 0, -1, -1, 1, -1, 1], [0, 0, 0, 1, 0, 0, 0, 0], [0, 1, 0, -1, -1, 1, 1, 2], [1, -1, 0, -1, 1, -1, 1, 2], [1, -1, 0, -1, 1, -1, 2, 1], [1, -1, 1, -1, 2, -2, 2, 2], [0, 0, 1, 0, 1, -1, 1, 1], [-1, 1, 0, 0, 1, 1, 1, 1], [0, 1, 0, -1, -1, 1, 2, 1], [1, 1, -1, -1, 0, 2, -2, 2], [-1, 1, 1, -1, 2, 0, 2, 2], [1, 0, -1, -1, 1, -1, 0, 2], [1, 0, 0, -1, 1, 1, -1, -1], [1, 1, -1, -1, 2, 2, 0, -2], [1, 1, -1, -1, 2, 0, 2, -2], [1, -1, 0, -1, -1, 1, 2, 1], [1, 0, 0, 0, -2, 0, 0, 0], [0, 1, 0, -1, 1, 1, 1, -1], [1, 1, -1, -1, 0, 2, 2, -2], [-1, 1, 1, -1, 2, 2, 2, 0], [0, 0, 1, 0, 1, 1, 1, -1], [0, 0, 0, 0, 0, 0, 1, 0], [1, 0, 0, -1, -1, 1, 1, -1], [0, 0, 1, 0, 1, 1, -1, 1], [0, 0, 0, 0, 0, 0, 0, 1], [1, -1, -1, -1, 2, 0, 0, 2], [1, 0, 0, -1, 1, -1, -1, 1], [1, 1, -1, -1, 2, 0, -2, 2], [0, 0, -1, -1, 1, 1, 1, 2], [1, -1, -1, -1, 2, 0, 2, 0], [1, -1, 1, -1, 2, 2, 2, -2], [1, -1, -1, 0, 0, 0, 0, 0], [1, -1, -1, -1, 2, 2, 0, 0], [1, -1, 1, -1, 2, 2, -2, 2], [1, -1, 0, -1, 1, 1, -1, 2], [1, -1, 0, -1, -1, 1, 1, 2], [1, -1, 1, -1, -2, 2, 2, 2], [0, 0, 1, 0, -1, 1, 1, 1], [0, 0, 0, -1, 1, 1, 0, 1], [1, -1, -1, -1, 0, 2, 0, 2], [1, 1, -1, -1, -2, 2, 0, 2], [1, 0, -1, -1, -1, 1, 0, 2], [0, 0, -1, -1, 1, 1, 2, 1], [-1, 1, -1, -1, 2, 2, 2, 2], [0, 0, 0, -1, 1, 1, 1, 0], [1, -1, 0, -1, 1, 1, 2, -1], [1, -1, -1, -1, 0, 2, 2, 0], [0, 0, 0, -1, 0, 0, 1, 1], [1, 0, -1, -1, -1, 1, 2, 0], [0, 0, 0, 0, 0, 1, 0, 0], [1, 1, -1, -1, 2, 2, -2, 0], [1, 1, -1, -1, -2, 2, 2, 0], [-1, 1, 1, -1, 2, 2, 0, 2], [-1, 1, 1, -1, 0, 2, 2, 2]], equalities=[], name='origin ∩ anonymous_convex_polytope_7 ∩ anonymous_convex_polytope_7 ∩ anonymous_convex_polytope_7 ∩ anonymous_convex_polytope_8 ∩ anonymous_convex_polytope_7'), ConvexPolytope(inequalities=[[0, 0, 1, -1, 0, 0, 0, 0], [1, -1, 0, -1, 1, -1, 2, 1], [1, 0, -1, -1, 1, -1, 2, 0], [0, 1, -1, -1, 2, 0, 0, 2], [2, -1, -1, -1, 2, -2, 2, 0], [0, 0, 0, -1, 0, 0, 1, 1], [0, 0, 0, -1, 1, 1, 0, 1], [0, 1, -1, -1, 0, 2, 0, 2], [0, 0, -1, -1, 1, 1, 1, 2], [0, 1, 0, -1, 1, 1, -1, 2], [2, -1, -1, -1, 2, 0, -2, 2], [1, -1, -1, 0, 0, 0, 0, 0], [1, 0, 0, -1, -1, 1, -1, 1], [1, 0, -1, -1, -1, 1, 0, 2], [1, -1, 0, -1, -1, 1, 1, 2], [2, -1, -1, -1, -2, 2, 0, 2], [0, 0, 0, 0, 0, 0, 0, 1], [0, -1, 1, -1, 2, 0, 2, 2], [0, 1, 0, -1, 1, -1, 2, 1], [0, 1, 1, -1, 2, -2, 2, 2], [0, 0, 1, 0, 1, -1, 1, 1], [0, -1, 0, 0, 1, 1, 1, 1], [0, 0, 1, 0, 1, 1, -1, 1], [0, -1, 1, -1, 2, 2, 0, 2], [0, 1, -1, -1, 2, 2, 0, 0], [0, 0, 0, 0, 1, 0, 0, 0], [2, -1, -1, -1, 2, 2, 0, -2], [1, -1, 0, -1, 1, 1, 1, -1], [0, -1, 1, -1, 2, 2, 2, 0], [0, 0, 0, -1, 1, 1, 1, 0], [0, 1, -1, -1, 2, 0, 2, 0], [2, -1, -1, -1, 2, 0, 2, -2], [0, -1, -1, -1, 2, 2, 2, 2], [0, 0, -1, -1, 1, 1, 2, 1], [1, 0, 0, -1, 1, -1, 1, -1], [1, 0, 0, -1, 1, -1, -1, 1], [1, -1, 0, -1, 1, -1, 1, 2], [2, -1, -1, -1, 2, -2, 0, 2], [1, 0, 0, 0, 0, -2, 0, 0], [2, -1, -1, -1, 2, 2, -2, 0], [0, 0, 0, 0, 0, 1, 0, 0], [0, 1, 1, -1, 2, 2, -2, 2], [0, -1, 1, -1, 0, 2, 2, 2], [1, 0, 0, 0, -2, 0, 0, 0], [0, 1, 0, -1, 1, -1, 1, 2], [1, 0, -1, -1, 1, -1, 0, 2], [0, 1, 0, -1, -1, 1, 1, 2], [0, 0, 1, 0, -1, 1, 1, 1], [0, 1, 1, -1, -2, 2, 2, 2], [1, 0, 0, 0, 0, 0, 0, -2], [1, 0, -1, -1, -1, 1, 2, 0], [1, -1, 0, -1, -1, 1, 2, 1], [2, -1, -1, -1, -2, 2, 2, 0], [0, 1, 1, -1, 2, 2, 2, -2], [1, 0, 0, -1, -1, 1, 1, -1], [2, -1, -1, -1, 0, 2, 2, -2], [0, 1, 0, -1, 1, 1, 2, -1], [0, 1, -1, -1, 0, 2, 2, 0], [0, 1, 0, -1, -1, 1, 2, 1], [0, 1, -1, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 1, 0], [0, 0, 1, 0, 1, 1, 1, -1], [0, 0, 0, 1, 0, 0, 0, 0], [2, -1, -1, -1, 0, 2, -2, 2], [1, 0, 0, 0, 0, 0, -2, 0], [1, 0, 0, -1, 1, 1, -1, -1]], equalities=[], name='origin ∩ anonymous_convex_polytope_7 ∩ anonymous_convex_polytope_7 ∩ anonymous_convex_polytope_8 ∩ anonymous_convex_polytope_8 ∩ anonymous_convex_polytope_7'), ConvexPolytope(inequalities=[[0, 0, 1, -1, 0, 0, 0, 0], [0, 0, 1, 0, 1, 1, 1, -1], [-1, 1, 1, -1, 2, 2, 0, 2], [1, 1, -1, -1, 2, 2, -2, 0], [0, 1, 0, -1, 1, 1, -1, 1], [0, 0, 1, 0, 1, 1, -1, 1], [0, 0, 0, 0, 0, 0, 1, 0], [1, 0, 0, -1, 1, -1, 1, -1], [0, 0, 0, 0, 1, 0, 0, 0], [1, -1, -1, -1, 2, 0, 2, 0], [0, 0, 0, -1, 1, 1, 1, 0], [-1, 1, 1, -1, 2, 2, 2, 0], [0, 0, 0, 0, 0, 1, 0, 0], [1, 1, -1, -1, 2, 2, 0, -2], [1, -1, -1, -1, 2, 2, 0, 0], [1, 0, 0, -1, 1, 1, -1, -1], [1, 1, -1, -1, 2, 0, 2, -2], [1, 0, 0, 0, 0, 0, 0, -2], [1, -1, 0, -1, 1, 1, 1, -1], [1, 1, -1, -1, 0, 2, 2, -2], [1, 0, 0, 0, 0, 0, -2, 0], [1, 0, 0, 0, -2, 0, 0, 0], [1, -1, 0, -1, 1, 1, -1, 1], [0, 0, -1, -1, 1, 1, 1, 1], [-1, 1, 0, 0, 1, 1, 1, 1], [1, 0, -1, -1, 1, 1, -1, 0], [1, 0, -1, -1, 1, -1, 1, 0], [1, -1, 0, -1, 1, -1, 1, 1], [0, 0, 1, 0, 1, -1, 1, 1], [1, 1, -1, -1, -2, 2, 2, 0], [0, 1, 0, -1, -1, 1, 1, 1], [1, -1, -1, 0, 0, 0, 0, 0], [1, -1, -1, -1, 0, 2, 2, 0], [1, 0, -1, -1, -1, 1, 1, 0], [1, -1, 0, -1, -1, 1, 1, 1], [-1, 1, 1, -1, 0, 2, 2, 2], [0, 0, 1, 0, -1, 1, 1, 1], [1, 0, 0, -1, -1, 1, 1, -1], [0, 0, 0, 1, 0, 0, 0, 0], [1, 0, 0, 0, 0, -2, 0, 0], [1, 1, -1, -1, 2, -2, 2, 0], [0, 1, 0, -1, 1, -1, 1, 1], [0, 1, -1, 0, 0, 0, 0, 0], [0, 0, 0, -1, 0, 0, 0, 1], [-1, 1, 1, -1, 2, 0, 2, 2]], equalities=[], name='origin ∩ anonymous_convex_polytope_7 ∩ anonymous_convex_polytope_7 ∩ anonymous_convex_polytope_7 ∩ anonymous_convex_polytope_7 ∩ anonymous_convex_polytope_8'), ConvexPolytope(inequalities=[[0, 1, -1, 0, 0, 0, 0, 0], [1, -1, -1, 0, 0, 0, 0, 0], [1, 0, 0, 0, 0, -2, 0, 0], [0, 0, 0, 1, 0, 0, 0, 0], [0, 0, 0, -1, 0, 0, 0, 1], [1, 0, 0, 0, -2, 0, 0, 0], [0, 0, 0, 0, 0, 0, 1, 0], [1, 0, 0, 0, 0, 0, -2, 0], [1, 0, -1, -1, -1, 1, 1, 0], [1, 0, 0, -1, -1, 1, 1, -1], [2, -1, -1, -1, -2, 2, 2, 0], [1, -1, 0, -1, -1, 1, 1, 1], [0, -1, 1, -1, 0, 2, 2, 2], [0, 0, 1, -1, 0, 0, 0, 0], [0, 0, 0, 0, 0, 1, 0, 0], [1, 0, 0, -1, 1, -1, 1, -1], [0, 1, 0, -1, 1, 1, 1, -1], [1, 0, 0, -1, 1, 1, -1, -1], [2, -1, -1, -1, 2, 2, -2, 0], [1, -1, 0, -1, 1, 1, -1, 1], [0, -1, 1, -1, 2, 2, 0, 2], [0, 0, 1, 0, 1, 1, -1, 1], [1, 0, -1, -1, 1, 1, -1, 0], [0, 1, -1, -1, 2, 0, 2, 0], [2, -1, -1, -1, 2, 0, 2, -2], [0, 0, 0, -1, 1, 1, 1, 0], [0, 0, -1, -1, 1, 1, 1, 1], [0, 1, -1, -1, 2, 2, 0, 0], [2, -1, -1, -1, 2, 2, 0, -2], [0, 1, 0, -1, 1, 1, -1, 1], [0, 0, 1, 0, -1, 1, 1, 1], [0, 1, 0, -1, -1, 1, 1, 1], [2, -1, -1, -1, 0, 2, 2, -2], [0, 1, -1, -1, 0, 2, 2, 0], [0, 0, 1, 0, 1, 1, 1, -1], [0, 0, 1, 0, 1, -1, 1, 1], [0, -1, 1, -1, 2, 0, 2, 2], [0, -1, 0, 0, 1, 1, 1, 1], [0, -1, 1, -1, 2, 2, 2, 0], [1, 0, 0, 0, 0, 0, 0, -2], [0, 1, 0, -1, 1, -1, 1, 1], [0, 0, 0, 0, 1, 0, 0, 0], [1, -1, 0, -1, 1, -1, 1, 1], [1, 0, -1, -1, 1, -1, 1, 0], [2, -1, -1, -1, 2, -2, 2, 0]], equalities=[], name='origin ∩ anonymous_convex_polytope_7 ∩ anonymous_convex_polytope_7 ∩ anonymous_convex_polytope_8 ∩ anonymous_convex_polytope_7 ∩ anonymous_convex_polytope_8')])]
+(base) Minhs-MacBook-Pro:xx_synthesis minhpham$ 
