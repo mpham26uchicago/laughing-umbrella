@@ -150,6 +150,7 @@ class ConvexPolytope(ConvexPolytopeData):
         #       definitions are the same (up to rescaling?).  I think this is
         #       the most efficient version, since it doesn't enumerate vertices?
         cap_vertices = other.intersect(self).vertices
+        print(f"{cap_vertices=}")
         return all([v in cap_vertices for v in other.vertices])
 
 

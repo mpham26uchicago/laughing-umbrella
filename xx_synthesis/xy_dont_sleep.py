@@ -25,7 +25,7 @@ biswas_relations = (qlr_polytope
 # constrain interaction coordinates to be of XY-type
 biswas_relations = biswas_relations.intersect(Polytope(convex_subpolytopes=[
     ConvexPolytope(
-        inequalities=[[1, 0, 0, 0, -2, 0, 0, 0, 0, 0]], # Angle set
+        inequalities=[[1, 0, 0, 0, -4, 0, 0, 0, 0, 0]], # Angle set
         equalities=[
             [0, 0, 0, 0, 0, 1, 0, 0, 0, 0],  # x2 == 0 # What kind of gate you want
             [0, 0, 0, 0, 0, 0, 1, 0, 0, 0],  # x3 == 0 
