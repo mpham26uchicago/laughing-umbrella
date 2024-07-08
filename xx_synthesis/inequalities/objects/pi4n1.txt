@@ -1,0 +1,1 @@
+Polytope(convex_subpolytopes=[ConvexPolytope(inequalities=[[1, -2, 0, 0, 0], [0, 1, 0, 0, 0]], equalities=[[0, -1, 1, 0, 0], [0, 0, 0, 1, 0], [0, -1, 0, 0, 1]], name='pi4n1p0'), ConvexPolytope(inequalities=[[1, -1, 0, 0, 0], [-1, 2, 0, 0, 0]], equalities=[[-1, 1, 1, 0, 0], [0, 0, 0, 1, 0], [-1, 1, 0, 0, 1]], name='pi4n1p1')])
