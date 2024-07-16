@@ -222,3 +222,7 @@ def classify(ineq_system, poly = 0, save=False, table_name=""):
         print(f"String has been saved to {table_name}")
                 
     return table_str
+
+file = open("/Users/minhpham/Documents/Research/laughing-umbrella/xx_synthesis/inequalities/massive.txt", "r")
+
+polytope_dict = eval(file.read()[63:])

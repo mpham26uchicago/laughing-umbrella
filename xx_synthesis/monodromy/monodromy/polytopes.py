@@ -141,7 +141,7 @@ class ConvexPolytope(ConvexPolytopeData):
                      <= epsilon
                      for equality in self.equalities]))
 
-    def contains(self, other) -> bool:
+    def contains(self, other, printing = False) -> bool:
         """
         Returns True when this convex body is contained in the right-hand one.
         """
@@ -150,7 +150,8 @@ class ConvexPolytope(ConvexPolytopeData):
         #       definitions are the same (up to rescaling?).  I think this is
         #       the most efficient version, since it doesn't enumerate vertices?
         cap_vertices = other.intersect(self).vertices
-        print(f"{cap_vertices=}")
+        if printing:
+            print(f"{cap_vertices=}")
         return all([v in cap_vertices for v in other.vertices])
 
 
