@@ -338,7 +338,7 @@ def regenerate_xx_solution_polytopes():
     constrained_polytope = project(constrained_polytope, 1).reduce()
 
     # compare with the original b polytope
-    big_polytope = b_polytope.intersect( 
+    big_polytope = b_polytope.intersect(
         cylinderize(strength_polytope, [0, 4, 5, 6, 7], 8)
     ).reduce()
     assert constrained_polytope.contains(big_polytope)

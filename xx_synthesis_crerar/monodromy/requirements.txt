@@ -1,0 +1,5 @@
+numpy
+
+# SEE README:
+# lrs
+# lrcalc
