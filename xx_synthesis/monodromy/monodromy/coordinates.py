@@ -16,7 +16,7 @@ several common coordinate systems / choices of Weyl alcove in pu_4:
 
       exp(-i(a XX + b YY + c ZZ))
 
-  with a, b, c further chosen to satisfy a ≥ b ≥ c ≥ 0 and pi - a ≥ b.  One may
+  with a, b, c further chosen to satisfy a ≥ b ≥ c ≥ 0 and pi/2 - a ≥ b.  One may
   further _normalize_ these coordinates by dividing by pi, so that the polytope
   becomes integrally specified.
 
@@ -178,11 +178,15 @@ def monodromy_to_positive_canonical_coordinate(x, y, z):
     Given a monodromy alcove coordinate, produces its image as an unnormalized positive canonical coordinate. Take the first three of the four monodromy coordinates.
     """
     normalizing_factor = np.pi
-    return (
-        (x + y) / 2 * normalizing_factor,
-        (z + x) / 2 * normalizing_factor,
-        (y + z) / 2 * normalizing_factor
-    )
+    
+    a1, a2, a3 = (x + y) / 2 * normalizing_factor, (z + x) / 2 * normalizing_factor, (y + z) / 2 * normalizing_factor
+    
+    if a3<=epsilon and a1 > np.pi/4:
+        a1 = np.pi/2-a1
+        a2, a1 = np.sort([a1, a2])
+        
+
+    return a1, a2, a3
 
 
 def positive_canonical_to_monodromy_coordinate(x, y, z):
